@@ -20,7 +20,9 @@
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,js,ts,react,nextjs,nodejs,mongodb,python,flutter,unity,git" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,html,css,js,jquery,npm,nodejs,nextjs,git,github,flutter,kotlin,python,anaconda,androidstudio&perline=10" />
+  </a>
 </p>
 
 ---

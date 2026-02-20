@@ -17,12 +17,49 @@
 
 ---
 
-## 🛠 Tech Stack
-
+<h3 align="center">💻 Programming Languages</h3>
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,html,css,js,jquery,npm,nodejs,nextjs,git,github,flutter,kotlin,python,anaconda,androidstudio&perline=10" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,python,go,rust,ruby,swift,kotlin,js,ts,php,r,matlab,dart" />
+</p>
+
+<h3 align="center">🎨 Frontend Development</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,redux,nextjs,vue,nuxtjs,angular,jquery,threejs,htmx,vite" />
+</p>
+
+<h3 align="center">⚙️ Backend & Frameworks</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,django,flask,fastapi,spring,dotnet,hibernate,firebase,supabase" />
+</p>
+
+<h3 align="center">🗄 Databases</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite" />
+</p>
+
+<h3 align="center">☁️ Cloud & DevOps</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,cloudflare,netlify,vercel" />
+</p>
+
+<h3 align="center">🖥 Operating Systems</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,arch,kali,windows" />
+</p>
+
+<h3 align="center">🤖 AI & Data Science</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,anaconda" />
+</p>
+
+<h3 align="center">🎮 Game & Creative</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=unity,godot,figma" />
+</p>
+
+<h3 align="center">🧰 Tools & IDEs</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,gitlab,npm,gradle,maven,cmake,bash,powershell,vim,vscode,visualstudio,idea,phpstorm,pycharm,eclipse,clion,androidstudio,postman,replit,notion,stackoverflow" />
 </p>
 
 ---

@@ -64,10 +64,10 @@
 
 ---
 
-## 📊 GitHub Stats
+<h3 align="center">📊 GitHub Stats</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&cache_seconds=1800" />
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </p>
 
 <p align="center">

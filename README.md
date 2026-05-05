@@ -70,9 +70,9 @@
   <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </p>
 
-[<p align="center">
+<p align="center">
   <img src="https://github-streak-tracker-for-all.vercel.app/api/streak?username=SAPTARSHI-coder" />
-</p>]
+</p>
 
 ---
 

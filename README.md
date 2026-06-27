@@ -1,70 +1,44 @@
 <h1 align="center">Saptarshi Sadhu</h1>
-<h3 align="center">System Architect | Full Stack Developer | AI Researcher</h3>
+<h3 align="center">Creator of EaseMotion CSS | System Architect | AI Researcher</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Designing+Systems.;Building+AI+Infrastructure.;Engineering+With+Discipline." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=650&lines=Ranked+%232+Top+GitHub+User+in+India+%F0%9F%87%AE%F0%9F%87%B3;Creator+of+EaseMotion+CSS+(12%2C000%2B+PRs);System+Architect+%26+AI+Researcher." />
 </p>
+
+<p align="center">
+  <a href="https://committers.top/india_public"><img src="https://user-badge.committers.top/india_public/SAPTARSHI-coder.svg" alt="committers.top badge" /></a>
+  <a href="https://github.com/SAPTARSHI-coder/EaseMotion-css"><img src="https://img.shields.io/badge/Project-EaseMotion%20CSS-6c63ff?style=for-the-badge&logo=github" /></a>
+  <a href="https://saptarshisadhu.co.in/"><img src="https://img.shields.io/badge/Website-saptarshisadhu.co.in-00C2FF?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+</p>
+
+---
+
+## ⚡ Historic Open-Source Accomplishments
+
+- 🇮🇳 **Ranked #2 Top GitHub Contributor in India** ([committers.top/india_public](https://committers.top/india_public)) among 1.1M+ developers.
+- 🚀 **Creator & Lead Maintainer of [EaseMotion CSS](https://github.com/SAPTARSHI-coder/EaseMotion-css)** — Zero-dependency 60fps animation framework with over **12,000+ merged PRs** and **500+ global contributors**.
+- 🔥 **Peak Daily Velocity:** Recorded over **1,300+ combined GitHub contributions in a single day** during high-velocity framework orchestration.
 
 ---
 
 ## 🧠 About Me
 
-- 🎓 B.Tech CSE | Adamas University  
-- 🔬 Researcher in Urban Air Quality ML (VOC, O₃, NOx)  
-- 🏗 Architecting AI-powered Healthcare Infrastructure  
-- 💻 Full Stack (React, Node, MongoDB)  
-- ⚙️ Strong in C++ & Data Structures  
+- 🎓 **B.Tech CSE** | Adamas University  
+- 🔬 **Researcher in ML & Environmental Science** (Urban Air Quality ML: VOC, O₃, NOx)  
+- 🏗 **Architecting AI-powered Healthcare & System Infrastructure**  
+- ⚙️ **Core Expertise:** C++, Python, Systems Architecture, Data Structures & High-Scale CI/CD Engineering  
 
 ---
 
-<h3 align="center">💻 Programming Languages</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,python,go,rust,ruby,swift,kotlin,js,ts,php,r,matlab,dart" />
-</p>
+## 🚀 Key Technologies & Core Stack
 
-<h3 align="center">🎨 Frontend Development</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,redux,nextjs,vue,nuxtjs,angular,jquery,threejs,htmx,vite" />
-</p>
-
-<h3 align="center">⚙️ Backend & Frameworks</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,django,flask,fastapi,spring,dotnet,hibernate,firebase,supabase" />
-</p>
-
-<h3 align="center">🗄 Databases</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite" />
-</p>
-
-<h3 align="center">☁️ Cloud & DevOps</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,cloudflare,netlify,vercel" />
-</p>
-
-<h3 align="center">🖥 Operating Systems</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,arch,kali,windows" />
-</p>
-
-<h3 align="center">🤖 AI & Data Science</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,anaconda" />
-</p>
-
-<h3 align="center">🎮 Game & Creative</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,godot,figma" />
-</p>
-
-<h3 align="center">🧰 Tools & IDEs</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,npm,gradle,maven,cmake,bash,powershell,vim,vscode,visualstudio,idea,phpstorm,pycharm,eclipse,clion,androidstudio,postman,replit,notion,stackoverflow" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,js,ts,react,nextjs,nodejs,express,mongodb,postgres,docker,git,linux,aws" />
 </p>
 
 ---
 
-<h3 align="center">📊 GitHub Stats</h3>
+## 📊 GitHub Stats & Streaks
 
 <p align="center">
   <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
@@ -76,7 +50,7 @@
 
 ---
 
-## 🔥 Contribution Graph
+## 🔥 Contribution Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAPTARSHI-coder&theme=react-dark" />
@@ -84,7 +58,8 @@
 
 ---
 
-## 🌐 Connect
+## 🌐 Connect & Collaborate
 
-- 🌍 Website: https://saptarshisadhu.co.in/
-- 💼 LinkedIn: https://www.linkedin.com/in/saptarshi-sadhu
+- 🌍 **Personal Portfolio:** [saptarshisadhu.co.in](https://saptarshisadhu.co.in/)  
+- 💼 **LinkedIn:** [linkedin.com/in/saptarshi-sadhu](https://www.linkedin.com/in/saptarshi-sadhu)  
+- 📦 **NPM Packages:** [easemotion-css on npm](https://www.npmjs.com/package/easemotion-css)  

@@ -83,7 +83,10 @@
 </p>
 
 ---
-
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=SAPTARSHI-coder&color=70a5fd" />
+</div>
+  
 ## 🌐 Connect
 
 - 🌍 Website: https://saptarshisadhu.co.in/

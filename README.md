@@ -71,7 +71,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-streak-tracker-for-all.vercel.app/api/streak?username=SAPTARSHI-coder" />
+  <img src="https://github-streak-tracker-for-all.vercel.app/api/streak?username=SAPTARSHI-coder&v=2" />
 </p>
 
 ---
@@ -79,7 +79,7 @@
 ## 🔥 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAPTARSHI-coder&theme=react-dark&v=2" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAPTARSHI-coder&theme=react-dark" />
 </p>
 
 ---

@@ -1754,4 +1754,27 @@
     <rect x="12" y="58" width="10" height="10" fill="#3B82F6"/>
     <text x="28" y="67" class="stat-lbl">Base Commits (1-39)</text>
   </g>
+
+  <!-- Telemetry Diagnostics HUD -->
+  <g transform="translate(740, 140)">
+    <rect width="165" height="215" rx="6" fill="#080F1D" stroke="#1E293B" stroke-width="1"/>
+    <text x="12" y="20" font-family="monospace" font-size="9.5" fill="#00E5FF" font-weight="bold">[TOPOLOGY BUFFER]</text>
+    <line x1="12" y1="28" x2="153" y2="28" stroke="#1E293B" stroke-width="0.8"/>
+    
+    <text x="12" y="46" class="stat-lbl">PROJECTION</text>
+    <text x="12" y="60" font-family="monospace" font-size="11" fill="#F8FAFC" font-weight="bold">2.5D Isometric</text>
+    
+    <text x="12" y="80" class="stat-lbl">GRID RESOLUTION</text>
+    <text x="12" y="94" font-family="monospace" font-size="11" fill="#38BDF8" font-weight="bold">52w × 7d (364 Nodes)</text>
+    
+    <text x="12" y="114" class="stat-lbl">ELEVATION METRIC</text>
+    <text x="12" y="128" font-family="monospace" font-size="11" fill="#10B981" font-weight="bold">Logarithmic Density</text>
+    
+    <text x="12" y="148" class="stat-lbl">SYSTEM STATUS</text>
+    <text x="12" y="162" font-family="monospace" font-size="11" fill="#FBBF24" font-weight="bold">Sync: Nominal (0ms)</text>
+    
+    <line x1="12" y1="174" x2="153" y2="174" stroke="#1E293B" stroke-width="0.8"/>
+    <circle cx="18" cy="192" r="3.5" fill="#10B981"/>
+    <text x="28" y="196" font-family="monospace" font-size="9" fill="#94A3B8">BUFFER: OPTIMIZED</text>
+  </g>
 </svg>

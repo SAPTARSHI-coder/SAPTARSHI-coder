@@ -529,15 +529,9 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 <br/><br/>
 
 <!-- 3D ISOMETRIC CONTRIBUTION TERRAIN -->
-<table width="100%">
-<tr>
-<td align="center" bgcolor="#090D16">
-  <img src="assets/github-3d.svg" alt="3D Isometric GitHub Contribution Terrain" width="100%" />
-</td>
-</tr>
-</table>
+<img src="assets/github-3d.svg" alt="3D Isometric GitHub Contribution Terrain" width="100%" />
 
-<br/>
+<br/><br/>
 
 <!-- GITHUB METRICS & DONUT SUMMARY -->
 <img src="assets/github-metrics-summary.svg" alt="GitHub Metrics and Language Donut Summary" width="100%" />
@@ -549,29 +543,23 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 <tr>
 <td align="center" width="50%" bgcolor="#090D16">
   <a href="https://github.com/SAPTARSHI-coder">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true" alt="Saptarshi's GitHub Stats" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true" alt="Saptarshi's GitHub Stats" width="100%" />
   </a>
 </td>
 <td align="center" width="50%" bgcolor="#090D16">
   <a href="https://github.com/SAPTARSHI-coder">
-    <img src="https://streak-stats.demolab.com?user=SAPTARSHI-coder&theme=tokyonight&hide_border=true&background=090D16&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="GitHub Live Streak Tracker" />
+    <img src="https://streak-stats.demolab.com?user=SAPTARSHI-coder&theme=tokyonight&hide_border=true&background=090D16&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="GitHub Live Streak Tracker" width="100%" />
   </a>
 </td>
 </tr>
 </table>
 
-<br/>
+<br/><br/>
 
 <!-- EASTER EGG CONTRIBUTION NAME ART: "SAPTARSHI" MATRIX -->
-<table width="100%">
-<tr>
-<td align="center" bgcolor="#090D16">
-  <img src="assets/contribution-art.svg" alt="GitHub Contribution Name Art — SAPTARSHI Matrix" width="100%" />
-</td>
-</tr>
-</table>
+<img src="assets/contribution-art.svg" alt="GitHub Contribution Name Art — SAPTARSHI Matrix" width="100%" />
 
-<br/>
+<br/><br/>
 
 <!-- SYSTEM RECOGNITION & MERIT TROPHIES -->
 <img src="assets/trophies.svg" alt="System Recognition Medallions & Trophies" width="100%" />

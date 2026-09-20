@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 230" width="100%" height="100%">
   <defs>
     <linearGradient id="cbg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#0B1120"/>
@@ -11,25 +11,25 @@
     </style>
   </defs>
 
-  <rect x="2" y="2" width="836" height="226" rx="10" fill="url(#cbg)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="2" y="2" width="936" height="226" rx="10" fill="url(#cbg)" stroke="#1E293B" stroke-width="1.2"/>
   
   <!-- Header Terminal Bar -->
-  <rect x="2" y="2" width="836" height="34" rx="10" fill="#0D1526"/>
-  <rect x="2" y="24" width="836" height="12" fill="#0D1526"/>
-  <line x1="2" y1="36" x2="838" y2="36" stroke="#1E293B" stroke-width="1"/>
+  <rect x="2" y="2" width="936" height="34" rx="10" fill="#0D1526"/>
+  <rect x="2" y="24" width="936" height="12" fill="#0D1526"/>
+  <line x1="2" y1="36" x2="938" y2="36" stroke="#1E293B" stroke-width="1"/>
   <circle cx="20" cy="19" r="5" fill="#EF4444"/>
   <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
   <circle cx="52" cy="19" r="5" fill="#10B981"/>
   <text x="75" y="23" class="hdr-text">saptarshi@research-node: ~ /telemetry/activity-matrix --calendar (52-weeks)</text>
-  <text x="660" y="23" class="hdr-text" fill="#10B981">● 12,000+ MERGED PRs</text>
+  <text x="760" y="23" class="hdr-text" fill="#10B981">● 12,000+ MERGED PRs</text>
 
   <!-- Grid Day Labels -->
-  <text x="15" y="80" class="lbl-text">Mon</text>
-  <text x="15" y="110" class="lbl-text">Wed</text>
-  <text x="15" y="140" class="lbl-text">Fri</text>
+  <text x="38" y="80" class="lbl-text">Mon</text>
+  <text x="38" y="110" class="lbl-text">Wed</text>
+  <text x="38" y="140" class="lbl-text">Fri</text>
 
   <!-- Contribution Grid Cells -->
-  <g>
+  <g transform="translate(38, 0)">
     <rect x="40" y="70" width="11" height="11" rx="2.5" fill="#161B22" />
     <rect x="40" y="85" width="11" height="11" rx="2.5" fill="#161B22" />
     <rect x="40" y="100" width="11" height="11" rx="2.5" fill="#161B22" />
@@ -397,10 +397,10 @@
   </g>
 
   <!-- Footer Legend -->
-  <g transform="translate(40, 195)">
+  <g transform="translate(38, 195)">
     <text x="0" y="10" class="lbl-text">SYNCHRONIZATION: 52 WEEKS · EASTER EGG: <tspan fill="#00E5FF" font-weight="bold">"SAPTARSHI" MATRIX</tspan></text>
     
-    <g transform="translate(620, 0)">
+    <g transform="translate(710, 0)">
       <text x="-35" y="10" class="lbl-text">Less</text>
       <rect x="0" y="0" width="11" height="11" rx="2" fill="#161B22"/>
       <rect x="15" y="0" width="11" height="11" rx="2" fill="#0E4429"/>

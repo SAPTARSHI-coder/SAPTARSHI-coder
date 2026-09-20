@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <style>
+      .f-cmd { font-family: 'Fira Code', monospace; font-size: 13px; fill: #10B981; }
+      .f-out { font-family: 'Fira Code', monospace; font-size: 12px; fill: #94A3B8; }
+      .f-cyan { fill: #00E5FF; font-weight: bold; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="936" height="156" rx="10" fill="url(#fbg)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Top Accent -->
+  <line x1="2" y1="2" x2="938" y2="2" stroke="#00E5FF" stroke-width="2"/>
+
+  <g transform="translate(30, 32)">
+    <text x="0" y="0" class="f-cmd">saptarshi@research-node:~$ <tspan fill="#F8FAFC">shutdown -h now --reason="TRANSMISSION COMPLETED"</tspan></text>
+    <text x="0" y="26" class="f-out">[SYS_LOG] Flushing spatial telemetry and open-source thread pools...</text>
+    <text x="0" y="48" class="f-out">[SYS_LOG] Active endpoints: <tspan class="f-cyan">saptarshisadhu.co.in</tspan> · <tspan class="f-cyan">linkedin.com/in/saptarshi-sadhu</tspan> · <tspan class="f-cyan">easemotion-css</tspan></text>
+    <text x="0" y="70" class="f-out">[SYS_LOG] <tspan fill="#10B981">[STATUS 0]</tspan> System halted successfully. Session detached.</text>
+    <text x="0" y="98" font-family="monospace" font-size="11" fill="#64748B">AUTHENTICATION KEY // ED25519 VERIFIED // SECURE NODE TRANSMISSION // SAPTARSHI SADHU</text>
+  </g>
+</svg>

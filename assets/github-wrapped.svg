@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 370" width="100%" height="100%">
+  <defs>
+    <!-- Dark Background with Aurora Gradient Highlights -->
+    <linearGradient id="w_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A12"/>
+      <stop offset="50%" stop-color="#0A1020"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </linearGradient>
+
+    <!-- Radial Glows for Aurora effect -->
+    <radialGradient id="glow_cyan" cx="20%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow_purple" cx="80%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow_orange" cx="30%" cy="85%" r="40%">
+      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#EA580C" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Card Fill with Glassmorphic Frost -->
+    <linearGradient id="card_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141E33" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0D1524" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <style>
+      .w-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 800; fill: #FFFFFF; letter-spacing: 0.5px; }
+      .w-sub { font-family: 'Fira Code', monospace; font-size: 11px; fill: #94A3B8; }
+      .w-card { stroke: #1E293B; stroke-width: 1.2; rx: 10px; fill: url(#card_grad); }
+      .w-head { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; font-weight: 700; }
+      .w-metric { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 22px; font-weight: 800; }
+      .w-label { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; fill: #94A3B8; }
+      .w-item { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11.5px; fill: #E2E8F0; }
+    </style>
+  </defs>
+
+  <!-- Outer Border & Background -->
+  <rect x="2" y="2" width="936" height="366" rx="12" fill="url(#w_bg)" stroke="#1E293B" stroke-width="1.2"/>
+  
+  <!-- Aurora Glow Meshes -->
+  <rect x="2" y="2" width="936" height="366" rx="12" fill="url(#glow_cyan)"/>
+  <rect x="2" y="2" width="936" height="366" rx="12" fill="url(#glow_purple)"/>
+  <rect x="2" y="2" width="936" height="366" rx="12" fill="url(#glow_orange)"/>
+
+  <!-- Top Title Banner -->
+  <g transform="translate(30, 36)">
+    <text x="0" y="0" class="w-title">GITHUB WRAPPED // <tspan fill="#00E5FF">SAPTARSHI SADHU</tspan></text>
+    <text x="0" y="20" class="w-sub">ENGINEERING VELOCITY · SATELLITE RESEARCH · OPEN SOURCE ORCHESTRATION</text>
+  </g>
+
+  <!-- Tag Pill -->
+  <g transform="translate(770, 24)">
+    <rect width="140" height="26" rx="13" fill="#0E1B33" stroke="#00E5FF" stroke-width="1.2"/>
+    <text x="70" y="17" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#00E5FF" font-weight="bold">● EDITION 2026</text>
+  </g>
+
+  <!-- 4 Glassmorphic Cards (2x2 Grid) -->
+  
+  <!-- CARD 1: In a Nutshell -->
+  <g transform="translate(30, 75)">
+    <rect width="210" height="195" class="w-card" stroke="#38BDF8"/>
+    <rect width="210" height="4" rx="2" fill="#38BDF8"/>
+    <text x="16" y="26" class="w-head" fill="#38BDF8">In a nutshell</text>
+    
+    <text x="16" y="58" class="w-metric" fill="#FFFFFF">12,000+</text>
+    <text x="16" y="74" class="w-label">Pull Requests Merged</text>
+
+    <text x="16" y="106" class="w-metric" fill="#38BDF8">1,300+</text>
+    <text x="16" y="122" class="w-label">Commits in 24h Sprint</text>
+
+    <text x="16" y="154" class="w-metric" fill="#10B981">500+</text>
+    <text x="16" y="170" class="w-label">Global Contributors Led</text>
+  </g>
+
+  <!-- CARD 2: You code far and wide -->
+  <g transform="translate(255, 75)">
+    <rect width="210" height="195" class="w-card" stroke="#F59E0B"/>
+    <rect width="210" height="4" rx="2" fill="#F59E0B"/>
+    <text x="16" y="26" class="w-head" fill="#FBBF24">You code far &amp; wide</text>
+
+    <g transform="translate(16, 48)">
+      <rect width="178" height="28" rx="5" fill="#1E293B"/>
+      <text x="10" y="18" class="w-item" font-weight="bold" fill="#FBBF24">EaseMotion CSS</text>
+      <text x="168" y="18" text-anchor="end" font-family="monospace" font-size="10" fill="#94A3B8">12k PRs</text>
+    </g>
+
+    <g transform="translate(16, 84)">
+      <rect width="178" height="28" rx="5" fill="#1E293B"/>
+      <text x="10" y="18" class="w-item" font-weight="bold" fill="#38BDF8">UrbanAir-ML</text>
+      <text x="168" y="18" text-anchor="end" font-family="monospace" font-size="10" fill="#94A3B8">GeoAI</text>
+    </g>
+
+    <g transform="translate(16, 120)">
+      <rect width="178" height="28" rx="5" fill="#1E293B"/>
+      <text x="10" y="18" class="w-item" font-weight="bold" fill="#34D399">SkyGlass Weather</text>
+      <text x="168" y="18" text-anchor="end" font-family="monospace" font-size="10" fill="#94A3B8">FastAPI</text>
+    </g>
+
+    <g transform="translate(16, 156)">
+      <rect width="178" height="28" rx="5" fill="#1E293B"/>
+      <text x="10" y="18" class="w-item" font-weight="bold" fill="#C084FC">SynthaVoice API</text>
+      <text x="168" y="18" text-anchor="end" font-family="monospace" font-size="10" fill="#94A3B8">PyTorch</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: You speak my language -->
+  <g transform="translate(480, 75)">
+    <rect width="210" height="195" class="w-card" stroke="#A855F7"/>
+    <rect width="210" height="4" rx="2" fill="#A855F7"/>
+    <text x="16" y="26" class="w-head" fill="#C084FC">You speak my language</text>
+
+    <g transform="translate(16, 45)">
+      <text x="0" y="14" class="w-item" font-weight="bold"><tspan fill="#00E5FF">●</tspan> Python</text>
+      <text x="178" y="14" text-anchor="end" font-family="monospace" font-size="11" fill="#94A3B8">42%</text>
+      <rect y="22" width="178" height="6" rx="3" fill="#1E293B"/>
+      <rect y="22" width="75" height="6" rx="3" fill="#00E5FF"/>
+    </g>
+
+    <g transform="translate(16, 80)">
+      <text x="0" y="14" class="w-item" font-weight="bold"><tspan fill="#F59E0B">●</tspan> JavaScript / CSS</text>
+      <text x="178" y="14" text-anchor="end" font-family="monospace" font-size="11" fill="#94A3B8">34%</text>
+      <rect y="22" width="178" height="6" rx="3" fill="#1E293B"/>
+      <rect y="22" width="60" height="6" rx="3" fill="#F59E0B"/>
+    </g>
+
+    <g transform="translate(16, 115)">
+      <text x="0" y="14" class="w-item" font-weight="bold"><tspan fill="#3B82F6">●</tspan> C / C++</text>
+      <text x="178" y="14" text-anchor="end" font-family="monospace" font-size="11" fill="#94A3B8">14%</text>
+      <rect y="22" width="178" height="6" rx="3" fill="#1E293B"/>
+      <rect y="22" width="25" height="6" rx="3" fill="#3B82F6"/>
+    </g>
+
+    <g transform="translate(16, 150)">
+      <text x="0" y="14" class="w-item" font-weight="bold"><tspan fill="#10B981">●</tspan> SQL &amp; Geospatial</text>
+      <text x="178" y="14" text-anchor="end" font-family="monospace" font-size="11" fill="#94A3B8">10%</text>
+      <rect y="22" width="178" height="6" rx="3" fill="#1E293B"/>
+      <rect y="22" width="18" height="6" rx="3" fill="#10B981"/>
+    </g>
+  </g>
+
+  <!-- CARD 4: Eyes to the sky / National Benchmark -->
+  <g transform="translate(705, 75)">
+    <rect width="205" height="195" class="w-card" stroke="#10B981"/>
+    <rect width="205" height="4" rx="2" fill="#10B981"/>
+    <text x="16" y="26" class="w-head" fill="#34D399">Eyes to the sky</text>
+
+    <text x="16" y="58" class="w-metric" fill="#10B981">Rank #2</text>
+    <text x="16" y="74" class="w-label">Top Contributor in India</text>
+
+    <text x="16" y="106" class="w-metric" fill="#00E5FF">IISc '26</text>
+    <text x="16" y="122" class="w-label">ACM Edge AI &amp; Robotics</text>
+
+    <text x="16" y="154" class="w-metric" fill="#FBBF24">Ambassador</text>
+    <text x="16" y="170" class="w-label">Google Gemini Ambassador</text>
+  </g>
+
+  <!-- Bottom Banner: Your Grind Never Stops -->
+  <g transform="translate(30, 285)">
+    <rect width="880" height="65" rx="8" fill="#0D1526" stroke="#1E293B" stroke-width="1"/>
+    
+    <g transform="translate(20, 22)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Your grind never stops</text>
+      <text x="0" y="20" font-family="monospace" font-size="10.5" fill="#00E5FF">Peak Day: 1,300+ commits · Active Sprint Velocity · GSSoC Mentorship</text>
+    </g>
+
+    <!-- Mini Contribution Activity Wave Graphic -->
+    <g transform="translate(560, 16)">
+      <path d="M 0 32 Q 25 5, 50 24 T 100 8 T 150 28 T 200 6 T 250 20 T 300 2 L 300 35 L 0 35 Z" fill="#00E5FF" fill-opacity="0.15"/>
+      <path d="M 0 32 Q 25 5, 50 24 T 100 8 T 150 28 T 200 6 T 250 20 T 300 2" fill="none" stroke="#00E5FF" stroke-width="2"/>
+      <circle cx="300" cy="2" r="4" fill="#00E5FF"/>
+    </g>
+  </g>
+</svg>

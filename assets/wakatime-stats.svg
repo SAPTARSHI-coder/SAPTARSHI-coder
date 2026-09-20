@@ -1,0 +1,112 @@
+<svg width="100%" height="220" viewBox="0 0 940 220" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waka_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16161e"/>
+      <stop offset="100%" stop-color="#1a1b26"/>
+    </linearGradient>
+    <linearGradient id="bar_cpp" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00599C"/><stop offset="100%" stop-color="#2ac3de"/>
+    </linearGradient>
+    <linearGradient id="bar_py" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776AB"/><stop offset="100%" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <linearGradient id="bar_ts" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3178C6"/><stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="bar_css" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#e0af68"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="0.5" y="0.5" width="939" height="219" rx="16" fill="url(#waka_bg)" stroke="#7aa2f7" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(28, 22)">
+    <!-- WakaTime Logo (clock icon in cyan) -->
+    <rect x="0" y="0" width="34" height="34" rx="8" fill="#7aa2f7" fill-opacity="0.15" stroke="#7aa2f7" stroke-opacity="0.4"/>
+    <circle cx="17" cy="17" r="10" stroke="#00E5FF" stroke-width="2" fill="none"/>
+    <polyline points="17,11 17,17 21,17" stroke="#00E5FF" stroke-width="2" stroke-linecap="round"/>
+    
+    <text x="46" y="16" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#c0caf5">WakaTime // Development Time Telemetry</text>
+    <text x="46" y="31" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#565f89">Cumulative Coding Metrics &amp; Language Distribution · @SAPTARSHI-coder</text>
+  </g>
+
+  <!-- Live Status Badge Top Right -->
+  <g transform="translate(760, 24)">
+    <rect x="0" y="0" width="150" height="26" rx="13" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4"/>
+    <circle cx="16" cy="13" r="4" fill="#10B981"/>
+    <text x="82" y="17" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#10B981">SYSTEMS ACTIVE</text>
+  </g>
+
+  <line x1="28" y1="68" x2="912" y2="68" stroke="#24283b" stroke-width="1"/>
+
+  <!-- Left Column: KPI Stats (Total Time, Daily Avg, Top Editor) -->
+  <g transform="translate(28, 82)">
+    <!-- Stat 1: Total Coding Time -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="180" height="52" rx="10" fill="#13141f" stroke="#24283b"/>
+      <text x="14" y="20" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#7aa2f7">TOTAL LOGGED TIME</text>
+      <text x="14" y="42" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="800" fill="#c0caf5">2,140+ hrs</text>
+    </g>
+
+    <!-- Stat 2: Daily Velocity -->
+    <g transform="translate(195, 0)">
+      <rect x="0" y="0" width="180" height="52" rx="10" fill="#13141f" stroke="#24283b"/>
+      <text x="14" y="20" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#2ac3de">DAILY ACTIVE AVERAGE</text>
+      <text x="14" y="42" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="800" fill="#c0caf5">5h 12m / day</text>
+    </g>
+
+    <!-- Stat 3: Primary IDEs -->
+    <g transform="translate(0, 62)">
+      <rect x="0" y="0" width="375" height="48" rx="10" fill="#13141f" stroke="#24283b"/>
+      <text x="14" y="20" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#bb9af7">PRIMARY ENVIRONMENTS</text>
+      <text x="14" y="38" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#9aa5ce">VS Code (68%) · CLion &amp; Linux TTY (24%) · Jupyter (8%)</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Language Velocity Progress Bars -->
+  <g transform="translate(440, 82)">
+    <text x="0" y="12" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#7aa2f7">LANGUAGE BREAKDOWN</text>
+
+    <!-- Stacked Multi-color Bar -->
+    <g transform="translate(0, 20)">
+      <!-- Base container -->
+      <rect x="0" y="0" width="470" height="12" rx="6" fill="#1f2335"/>
+      <!-- Segments -->
+      <rect x="0" y="0" width="160" height="12" rx="6" fill="url(#bar_cpp)"/>
+      <rect x="156" y="0" width="125" height="12" fill="url(#bar_py)"/>
+      <rect x="277" y="0" width="100" height="12" fill="url(#bar_ts)"/>
+      <rect x="373" y="0" width="60" height="12" fill="url(#bar_css)"/>
+      <rect x="429" y="0" width="41" height="12" rx="6" fill="#9ece6a"/>
+    </g>
+
+    <!-- Legend Table (2 rows) -->
+    <g transform="translate(0, 48)">
+      <!-- Row 1 -->
+      <circle cx="6" cy="6" r="4" fill="#2ac3de"/>
+      <text x="16" y="10" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#c0caf5">C++ / C (34%)</text>
+      <text x="100" y="10" font-family="'Segoe UI', sans-serif" font-size="10" fill="#565f89">727 hrs</text>
+
+      <circle cx="166" cy="6" r="4" fill="#7aa2f7"/>
+      <text x="176" y="10" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#c0caf5">Python / ML (27%)</text>
+      <text x="282" y="10" font-family="'Segoe UI', sans-serif" font-size="10" fill="#565f89">578 hrs</text>
+
+      <circle cx="346" cy="6" r="4" fill="#00E5FF"/>
+      <text x="356" y="10" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#c0caf5">TS / JS (21%)</text>
+      <text x="432" y="10" font-family="'Segoe UI', sans-serif" font-size="10" fill="#565f89">449 hrs</text>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 24)">
+        <circle cx="6" cy="6" r="4" fill="#e0af68"/>
+        <text x="16" y="10" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#c0caf5">CSS / EaseMotion (13%)</text>
+        <text x="140" y="10" font-family="'Segoe UI', sans-serif" font-size="10" fill="#565f89">278 hrs</text>
+
+        <circle cx="216" cy="6" r="4" fill="#9ece6a"/>
+        <text x="226" y="10" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#c0caf5">Go / Bash / System Tools (5%)</text>
+        <text x="395" y="10" font-family="'Segoe UI', sans-serif" font-size="10" fill="#565f89">108 hrs</text>
+      </g>
+    </g>
+  </g>
+
+</svg>

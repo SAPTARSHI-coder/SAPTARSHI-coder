@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 155" width="100%" height="100%">
+  <defs>
+    <linearGradient id="t_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0C1220"/>
+      <stop offset="100%" stop-color="#060A12"/>
+    </linearGradient>
+    <linearGradient id="gold_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#CA8A04"/>
+    </linearGradient>
+    <linearGradient id="cyan_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="purple_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
+    </linearGradient>
+    <style>
+      .tr-card { fill: #0F172A; stroke: #1E293B; stroke-width: 1.2; rx: 8px; }
+      .tr-grade { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 15px; font-weight: 900; }
+      .tr-title { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; }
+      .tr-desc { font-family: 'Fira Code', monospace; font-size: 9.5px; fill: #94A3B8; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="936" height="151" rx="10" fill="url(#t_bg)" stroke="#1E293B" stroke-width="1.2"/>
+  
+  <!-- Header strip -->
+  <g transform="translate(25, 20)">
+    <text x="0" y="0" font-family="monospace" font-size="11" font-weight="bold" fill="#00E5FF">🏆 SYSTEM RECOGNITION &amp; MERIT MEDALLIONS</text>
+    <text x="890" y="0" text-anchor="end" font-family="monospace" font-size="10" fill="#64748B">VERIFIED ON-CHAIN &amp; REPO AUDITED</text>
+  </g>
+
+  <!-- Trophy 1: PR Maestro -->
+  <g transform="translate(25, 36)">
+    <rect width="140" height="100" class="tr-card" stroke="#F59E0B"/>
+    <circle cx="70" cy="30" r="16" fill="#451A03" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="70" y="36" text-anchor="middle" font-size="16">🏆</text>
+    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#FBBF24">SSS+</text>
+    <text x="70" y="77" text-anchor="middle" class="tr-title">PR Maestro</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">12,000+ Merged</text>
+  </g>
+
+  <!-- Trophy 2: National Rank #2 -->
+  <g transform="translate(175, 36)">
+    <rect width="140" height="100" class="tr-card" stroke="#10B981"/>
+    <circle cx="70" cy="30" r="16" fill="#064E3B" stroke="#10B981" stroke-width="1.5"/>
+    <text x="70" y="36" text-anchor="middle" font-size="16">🇮🇳</text>
+    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#34D399">SSS</text>
+    <text x="70" y="77" text-anchor="middle" class="tr-title">Rank #2 India</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">committers.top</text>
+  </g>
+
+  <!-- Trophy 3: 24h Hyper Sprint -->
+  <g transform="translate(325, 36)">
+    <rect width="140" height="100" class="tr-card" stroke="#00E5FF"/>
+    <circle cx="70" cy="30" r="16" fill="#0C4A6E" stroke="#00E5FF" stroke-width="1.5"/>
+    <text x="70" y="36" text-anchor="middle" font-size="16">⚡</text>
+    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#38BDF8">SSS</text>
+    <text x="70" y="77" text-anchor="middle" class="tr-title">Hyper Sprint</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">1,300+ in 24h</text>
+  </g>
+
+  <!-- Trophy 4: Ecosystem Architect -->
+  <g transform="translate(475, 36)">
+    <rect width="140" height="100" class="tr-card" stroke="#8B5CF6"/>
+    <circle cx="70" cy="30" r="16" fill="#3B0764" stroke="#8B5CF6" stroke-width="1.5"/>
+    <text x="70" y="36" text-anchor="middle" font-size="16">👥</text>
+    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#C084FC">SS+</text>
+    <text x="70" y="77" text-anchor="middle" class="tr-title">Ecosystem Lead</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">500+ Contributors</text>
+  </g>
+
+  <!-- Trophy 5: IISc Research Node -->
+  <g transform="translate(625, 36)">
+    <rect width="140" height="100" class="tr-card" stroke="#3B82F6"/>
+    <circle cx="70" cy="30" r="16" fill="#172554" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="70" y="36" text-anchor="middle" font-size="16">🔬</text>
+    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#60A5FA">SS+</text>
+    <text x="70" y="77" text-anchor="middle" class="tr-title">IISc Research</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">ACM Edge AI '26</text>
+  </g>
+
+  <!-- Trophy 6: Gemini Ambassador -->
+  <g transform="translate(775, 36)">
+    <rect width="140" height="100" class="tr-card" stroke="#EC4899"/>
+    <circle cx="70" cy="30" r="16" fill="#500724" stroke="#EC4899" stroke-width="1.5"/>
+    <text x="70" y="36" text-anchor="middle" font-size="16">✨</text>
+    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#F472B6">SS+</text>
+    <text x="70" y="77" text-anchor="middle" class="tr-title">Gemini Fellow</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">Ambassador '26</text>
+  </g>
+</svg>

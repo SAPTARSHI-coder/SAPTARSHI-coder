@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 185" width="100%" height="100%">
+  <defs>
+    <linearGradient id="edgebg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <style>
+      .edge-card { fill: #0D1628; stroke: #1E293B; stroke-width: 1.2; rx: 8px; }
+      .edge-title { font-family: 'Fira Code', monospace; font-size: 11px; fill: #10B981; font-weight: bold; }
+      .edge-desc { font-family: -apple-system, BlinkMacSystemFont, monospace; font-size: 10px; fill: #94A3B8; }
+      .edge-arrow { stroke: #10B981; stroke-width: 1.5; stroke-dasharray: 4,3; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="936" height="181" rx="10" fill="url(#edgebg)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Module 1: Cloud Racks -->
+  <g transform="translate(25, 25)">
+    <rect width="155" height="130" class="edge-card"/>
+    <rect width="155" height="3" fill="#3B82F6" rx="1.5"/>
+    <text x="12" y="26" class="edge-title" fill="#3B82F6">01 // CLOUD RACKS</text>
+    <text x="12" y="50" class="edge-desc">• Foundation Training</text>
+    <text x="12" y="70" class="edge-desc">• Heavy Preprocessing</text>
+    <text x="12" y="90" class="edge-desc">• Spatial Data Storage</text>
+    <text x="12" y="112" class="edge-desc" fill="#38BDF8">Weights Export</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="185" y1="90" x2="215" y2="90" class="edge-arrow"/>
+  <polygon points="215,87 221,90 215,93" fill="#10B981"/>
+
+  <!-- Module 2: Edge Silicon -->
+  <g transform="translate(225, 25)">
+    <rect width="155" height="130" class="edge-card"/>
+    <rect width="155" height="3" fill="#10B981" rx="1.5"/>
+    <text x="12" y="26" class="edge-title">02 // EDGE SILICON</text>
+    <text x="12" y="50" class="edge-desc">• Model Quantization</text>
+    <text x="12" y="70" class="edge-desc">• Sub-15ms Latency</text>
+    <text x="12" y="90" class="edge-desc">• Zero Cloud Relay</text>
+    <text x="12" y="112" class="edge-desc" fill="#10B981">Local Tensor Core</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <line x1="385" y1="90" x2="415" y2="90" class="edge-arrow"/>
+  <polygon points="415,87 421,90 415,93" fill="#10B981"/>
+
+  <!-- Module 3: Ambient Sensors -->
+  <g transform="translate(425, 25)">
+    <rect width="155" height="130" class="edge-card"/>
+    <rect width="155" height="3" fill="#00E5FF" rx="1.5"/>
+    <text x="12" y="26" class="edge-title" fill="#00E5FF">03 // SENSOR ARRAYS</text>
+    <text x="12" y="50" class="edge-desc">• VOC &amp; Gas Modules</text>
+    <text x="12" y="70" class="edge-desc">• Laser PM₂.₅ Optical</text>
+    <text x="12" y="90" class="edge-desc">• Microclimate Telemetry</text>
+    <text x="12" y="112" class="edge-desc" fill="#00E5FF">Hardware-in-Loop</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <line x1="585" y1="90" x2="615" y2="90" class="edge-arrow"/>
+  <polygon points="615,87 621,90 615,93" fill="#10B981"/>
+
+  <!-- Module 4: Sensor Fusion & Perception -->
+  <g transform="translate(625, 25)">
+    <rect width="155" height="130" class="edge-card"/>
+    <rect width="155" height="3" fill="#F59E0B" rx="1.5"/>
+    <text x="12" y="26" class="edge-title" fill="#F59E0B">04 // SENSOR FUSION</text>
+    <text x="12" y="50" class="edge-desc">• Kalman Filtering</text>
+    <text x="12" y="70" class="edge-desc">• Spatial Mapping</text>
+    <text x="12" y="90" class="edge-desc">• Odometry Integration</text>
+    <text x="12" y="112" class="edge-desc" fill="#F59E0B">Digital Twins</text>
+  </g>
+
+  <!-- Arrow 4 -> 5 -->
+  <line x1="785" y1="90" x2="810" y2="90" class="edge-arrow"/>
+  <polygon points="810,87 816,90 810,93" fill="#10B981"/>
+
+  <!-- Module 5: Autonomous Robotics -->
+  <g transform="translate(815, 25)">
+    <rect width="105" height="130" class="edge-card" stroke="#00E5FF"/>
+    <rect width="105" height="3" fill="#00E5FF" rx="1.5"/>
+    <text x="8" y="26" class="edge-title" fill="#00E5FF">05 // ROS 2</text>
+    <text x="8" y="50" class="edge-desc">• Rover Nodes</text>
+    <text x="8" y="70" class="edge-desc">• Navigation</text>
+    <text x="8" y="90" class="edge-desc">• Sensing Act</text>
+    <text x="8" y="112" class="edge-desc" fill="#10B981">IISc '26</text>
+  </g>
+</svg>

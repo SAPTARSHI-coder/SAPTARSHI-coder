@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="abg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <style>
+      .node-card { fill: #0D1628; stroke: #1E293B; stroke-width: 1.2; rx: 8px; }
+      .node-core { fill: #0F1E36; stroke: #00E5FF; stroke-width: 1.5; rx: 8px; }
+      .node-title { font-family: 'Fira Code', monospace; font-size: 11.5px; fill: #00E5FF; font-weight: bold; }
+      .node-item { font-family: -apple-system, BlinkMacSystemFont, monospace; font-size: 10px; fill: #94A3B8; }
+      .node-accent { font-family: 'Fira Code', monospace; font-size: 10px; fill: #38BDF8; font-weight: bold; }
+      .bus-line { stroke: #00E5FF; stroke-width: 1.5; stroke-dasharray: 4,3; }
+      .bus-amber { stroke: #F59E0B; stroke-width: 1.5; stroke-dasharray: 4,3; }
+      .bus-green { stroke: #10B981; stroke-width: 1.5; stroke-dasharray: 4,3; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="936" height="436" rx="12" fill="url(#abg)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Top Terminal Bar -->
+  <rect x="2" y="2" width="936" height="34" rx="12" fill="#0D1526"/>
+  <rect x="2" y="24" width="936" height="12" fill="#0D1526"/>
+  <line x1="2" y1="36" x2="938" y2="36" stroke="#1E293B" stroke-width="1"/>
+  <circle cx="22" cy="19" r="5" fill="#EF4444"/>
+  <circle cx="38" cy="19" r="5" fill="#F59E0B"/>
+  <circle cx="54" cy="19" r="5" fill="#10B981"/>
+  <text x="78" y="23" font-family="monospace" font-size="11" fill="#94A3B8">saptarshi@research-node: ~ /sys/architecture --blueprint (4-pillar convergence)</text>
+
+  <!-- CENTER CORE HUB: SAPTARSHI SADHU -->
+  <g transform="translate(295, 52)">
+    <rect width="350" height="70" class="node-core"/>
+    <text x="175" y="26" text-anchor="middle" font-family="monospace" font-size="14" fill="#F8FAFC" font-weight="bold">SAPTARSHI SADHU</text>
+    <text x="175" y="44" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#00E5FF">B.Tech CSE (AI/ML) · Adamas Univ ──► IISc Bengaluru '26</text>
+    <text x="175" y="60" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#94A3B8">AI RESEARCHER · SYSTEMS BUILDER · OPEN SOURCE MAINTAINER</text>
+  </g>
+
+  <!-- Bus Distribution Lines From Core -->
+  <path d="M 470 122 L 470 150 L 130 150 L 130 170" fill="none" class="bus-line"/>
+  <path d="M 470 122 L 470 150 L 360 150 L 360 170" fill="none" class="bus-green"/>
+  <path d="M 470 122 L 470 150 L 580 150 L 580 170" fill="none" class="bus-amber"/>
+  <path d="M 470 122 L 470 150 L 810 150 L 810 170" fill="none" class="bus-line"/>
+
+  <!-- CLUSTER 1: RESEARCH & GeoAI -->
+  <g transform="translate(30, 170)">
+    <rect width="200" height="155" class="node-card"/>
+    <rect width="200" height="3" fill="#00E5FF" rx="1.5"/>
+    <text x="14" y="26" class="node-title">01 // RESEARCH &amp; GeoAI</text>
+    <text x="14" y="50" class="node-item">• Urban Air Quality ML</text>
+    <text x="14" y="68" class="node-item">• VOCs · O₃ · NOx · PM₂.₅</text>
+    <text x="14" y="86" class="node-item">• Google Earth Engine · QGIS</text>
+    <text x="14" y="104" class="node-item">• LST · NDVI · NDBI · DEM</text>
+    <text x="14" y="122" class="node-item">• ADASYN · SMOTE · PCA</text>
+    <text x="14" y="142" class="node-accent" fill="#00E5FF">Nature Cities Scope</text>
+  </g>
+
+  <!-- CLUSTER 2: PHYSICAL & EDGE AI -->
+  <g transform="translate(255, 170)">
+    <rect width="210" height="155" class="node-card"/>
+    <rect width="210" height="3" fill="#10B981" rx="1.5"/>
+    <text x="14" y="26" class="node-title" fill="#10B981">02 // PHYSICAL &amp; EDGE AI</text>
+    <text x="14" y="50" class="node-item">• Low-Power Sensor Arrays</text>
+    <text x="14" y="68" class="node-item">• Ambient Atmospheric IoT</text>
+    <text x="14" y="86" class="node-item">• ROS 2 Perception Pipelines</text>
+    <text x="14" y="104" class="node-item">• Physics Sim &amp; Digital Twins</text>
+    <text x="14" y="122" class="node-item">• Edge Quantized Inference</text>
+    <text x="14" y="142" class="node-accent" fill="#10B981">IISc Bengaluru (ACM '26)</text>
+  </g>
+
+  <!-- CLUSTER 3: OPEN SOURCE ECOSYSTEM -->
+  <g transform="translate(490, 170)">
+    <rect width="200" height="155" class="node-card"/>
+    <rect width="200" height="3" fill="#F59E0B" rx="1.5"/>
+    <text x="14" y="26" class="node-title" fill="#F59E0B">03 // OPEN SOURCE ENG</text>
+    <text x="14" y="50" class="node-item">• EaseMotion CSS Creator</text>
+    <text x="14" y="68" class="node-item">• 12,000+ PRs Merged</text>
+    <text x="14" y="86" class="node-item">• 500+ Global Contributors</text>
+    <text x="14" y="104" class="node-item">• Automated CI/CD Actions</text>
+    <text x="14" y="122" class="node-item">• GSSoC Mentorship Lead</text>
+    <text x="14" y="142" class="node-accent" fill="#F59E0B">#2 India (committers.top)</text>
+  </g>
+
+  <!-- CLUSTER 4: SOFTWARE & DEPLOYMENTS -->
+  <g transform="translate(710, 170)">
+    <rect width="200" height="155" class="node-card"/>
+    <rect width="200" height="3" fill="#38BDF8" rx="1.5"/>
+    <text x="14" y="26" class="node-title" fill="#38BDF8">04 // SYSTEMS &amp; PRODUCTS</text>
+    <text x="14" y="50" class="node-item">• SkyGlass Weather Engine</text>
+    <text x="14" y="68" class="node-item">• SynthaVoice Audio Detection</text>
+    <text x="14" y="86" class="node-item">• Kolkata Pandal Companion</text>
+    <text x="14" y="104" class="node-item">• PostGIS · Gemini · n8n RAG</text>
+    <text x="14" y="122" class="node-item">• FastAPI · Docker · Render</text>
+    <text x="14" y="142" class="node-accent" fill="#38BDF8">Production Deployed</text>
+  </g>
+
+  <!-- Convergence to Physical Reality -->
+  <path d="M 130 325 L 130 355 L 470 355 L 470 375" fill="none" class="bus-line"/>
+  <path d="M 360 325 L 360 355 L 470 355" fill="none" class="bus-green"/>
+  <path d="M 590 325 L 590 355 L 470 355" fill="none" class="bus-amber"/>
+  <path d="M 810 325 L 810 355 L 470 355" fill="none" class="bus-line"/>
+
+  <!-- BOTTOM CONVERGENCE NODE -->
+  <g transform="translate(240, 375)">
+    <rect width="460" height="48" rx="6" fill="#080F1E" stroke="#00E5FF" stroke-width="1.2"/>
+    <text x="230" y="22" text-anchor="middle" font-family="monospace" font-size="12" fill="#F8FAFC" font-weight="bold">TARGET CONVERGENCE: REAL-WORLD DEPLOYMENT</text>
+    <text x="230" y="38" text-anchor="middle" font-family="monospace" font-size="10" fill="#00E5FF">"Building software, models, and sensory systems that leave the desk."</text>
+  </g>
+</svg>

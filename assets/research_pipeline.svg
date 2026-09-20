@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#060A12"/>
+    </linearGradient>
+    <style>
+      .p-box { fill: #0D1628; stroke: #1E293B; stroke-width: 1.2; rx: 8px; }
+      .p-title { font-family: 'Fira Code', monospace; font-size: 11px; fill: #00E5FF; font-weight: bold; }
+      .p-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; fill: #94A3B8; }
+      .p-arrow { stroke: #00E5FF; stroke-width: 1.5; stroke-dasharray: 4,3; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="936" height="176" rx="10" fill="url(#pipeBg)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Stage 1 -->
+  <g transform="translate(25, 25)">
+    <rect width="155" height="125" class="p-box"/>
+    <rect width="155" height="3" fill="#00E5FF" rx="1.5"/>
+    <text x="12" y="26" class="p-title">01 // OBSERVATION</text>
+    <text x="12" y="48" class="p-sub">• Sentinel &amp; Landsat</text>
+    <text x="12" y="66" class="p-sub">• CPCB Ground Stations</text>
+    <text x="12" y="84" class="p-sub">• DEM &amp; Road Networks</text>
+    <text x="12" y="102" class="p-sub">• Ambient VOC / NOx</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="185" y1="87" x2="210" y2="87" class="p-arrow"/>
+  <polygon points="210,84 216,87 210,90" fill="#00E5FF"/>
+
+  <!-- Stage 2 -->
+  <g transform="translate(220, 25)">
+    <rect width="155" height="125" class="p-box"/>
+    <rect width="155" height="3" fill="#38BDF8" rx="1.5"/>
+    <text x="12" y="26" class="p-title" fill="#38BDF8">02 // GEO SPATIAL</text>
+    <text x="12" y="48" class="p-sub">• Google Earth Engine</text>
+    <text x="12" y="66" class="p-sub">• QGIS Raster Alignment</text>
+    <text x="12" y="84" class="p-sub">• LST · NDVI · NDBI</text>
+    <text x="12" y="102" class="p-sub">• Spatial Interpolation</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <line x1="380" y1="87" x2="405" y2="87" class="p-arrow"/>
+  <polygon points="405,84 411,87 405,90" fill="#00E5FF"/>
+
+  <!-- Stage 3 -->
+  <g transform="translate(415, 25)">
+    <rect width="155" height="125" class="p-box"/>
+    <rect width="155" height="3" fill="#818CF8" rx="1.5"/>
+    <text x="12" y="26" class="p-title" fill="#818CF8">03 // PREPROCESSING</text>
+    <text x="12" y="48" class="p-sub">• Outlier Elimination</text>
+    <text x="12" y="66" class="p-sub">• PCA Dimensionality</text>
+    <text x="12" y="84" class="p-sub">• ADASYN &amp; SMOTE</text>
+    <text x="12" y="102" class="p-sub">• Spatial CV Partition</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <line x1="575" y1="87" x2="600" y2="87" class="p-arrow"/>
+  <polygon points="600,84 606,87 600,90" fill="#00E5FF"/>
+
+  <!-- Stage 4 -->
+  <g transform="translate(610, 25)">
+    <rect width="155" height="125" class="p-box"/>
+    <rect width="155" height="3" fill="#F59E0B" rx="1.5"/>
+    <text x="12" y="26" class="p-title" fill="#F59E0B">04 // MODEL INFERENCE</text>
+    <text x="12" y="48" class="p-sub">• Gradient Boosting</text>
+    <text x="12" y="66" class="p-sub">• Random Forest Regr</text>
+    <text x="12" y="84" class="p-sub">• Non-linear Kinetics</text>
+    <text x="12" y="102" class="p-sub">• Hyperparameter Tuning</text>
+  </g>
+
+  <!-- Arrow 4 -> 5 -->
+  <line x1="770" y1="87" x2="795" y2="87" class="p-arrow"/>
+  <polygon points="795,84 801,87 795,90" fill="#00E5FF"/>
+
+  <!-- Stage 5 -->
+  <g transform="translate(805, 25)">
+    <rect width="115" height="125" class="p-box" stroke="#10B981"/>
+    <rect width="115" height="3" fill="#10B981" rx="1.5"/>
+    <text x="10" y="26" class="p-title" fill="#10B981">05 // INSIGHT</text>
+    <text x="10" y="48" class="p-sub">• High-Res Maps</text>
+    <text x="10" y="66" class="p-sub">• VOC / O₃ Kinetics</text>
+    <text x="10" y="84" class="p-sub">• Urban Policy</text>
+    <text x="10" y="102" class="p-sub" fill="#38BDF8">Nature Cities</text>
+  </g>
+</svg>

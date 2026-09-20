@@ -51,7 +51,7 @@
     <text x="14" y="86" class="node-item">• Google Earth Engine · QGIS</text>
     <text x="14" y="104" class="node-item">• LST · NDVI · NDBI · DEM</text>
     <text x="14" y="122" class="node-item">• ADASYN · SMOTE · PCA</text>
-    <text x="14" y="142" class="node-accent" fill="#00E5FF">Nature Cities Scope</text>
+    <text x="14" y="142" class="node-accent" fill="#00E5FF">Sentinel-5P Fusion</text>
   </g>
 
   <!-- CLUSTER 2: PHYSICAL & EDGE AI -->

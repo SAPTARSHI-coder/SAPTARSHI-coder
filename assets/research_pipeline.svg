@@ -82,6 +82,6 @@
     <text x="10" y="48" class="p-sub">• High-Res Maps</text>
     <text x="10" y="66" class="p-sub">• VOC / O₃ Kinetics</text>
     <text x="10" y="84" class="p-sub">• Urban Policy</text>
-    <text x="10" y="102" class="p-sub" fill="#38BDF8">Nature Cities</text>
+    <text x="10" y="102" class="p-sub" fill="#38BDF8">GeoAI Pipeline</text>
   </g>
 </svg>

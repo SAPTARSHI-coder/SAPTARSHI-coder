@@ -70,7 +70,7 @@
     <text x="0" y="38" class="t-key">Kernel<tspan class="t-dim"> ...... </tspan><tspan class="t-val">Applied AI/ML &amp; Physical Systems <tspan class="t-purple">(B.Tech CSE '26)</tspan></tspan></text>
     <text x="0" y="57" class="t-key">Uptime<tspan class="t-dim"> ...... </tspan><tspan class="t-val">3rd Year Active Deployment <tspan class="t-green">[Continuous Active Status]</tspan></tspan></text>
     <text x="0" y="76" class="t-key">Shell<tspan class="t-dim"> ....... </tspan><tspan class="t-val">zsh 5.9 · ROS 2 Galactic · Bash · Python 3.12</tspan></text>
-    <text x="0" y="95" class="t-key">Research<tspan class="t-dim"> .... </tspan><tspan class="t-val">Urban Air Quality ML <tspan class="t-amber">(VOCs, O₃, NOx, GEE, Nature Cities)</tspan></tspan></text>
+    <text x="0" y="95" class="t-key">Research<tspan class="t-dim"> .... </tspan><tspan class="t-val">Urban Air Quality ML <tspan class="t-amber">(VOCs, O₃, NOx, GEE, Sentinel-5P)</tspan></tspan></text>
     <text x="0" y="114" class="t-key">Edge AI<tspan class="t-dim"> ..... </tspan><tspan class="t-val">ACM India Summer School '26 @ IISc Bengaluru</tspan></text>
     <text x="0" y="133" class="t-key">FOSS Lead<tspan class="t-dim"> ... </tspan><tspan class="t-val">EaseMotion CSS Maintainer <tspan class="t-cyan">[Rank #2 in India on committers.top]</tspan></tspan></text>
     <text x="0" y="152" class="t-key">Velocity<tspan class="t-dim"> .... </tspan><tspan class="t-val">12,000+ PRs Merged · 1,300+ Commits in 24h Sprint</tspan></text>

@@ -285,7 +285,7 @@
     <g transform="translate(0, 22)">
       <text x="0" y="0" fill="#38BDF8" font-weight="700">[01/GEOAI]</text>
       <text x="75" y="0" fill="#F8FAFC" font-weight="600">Urban Air Quality ML</text>
-      <text x="225" y="0" fill="#94A3B8">· VOCs / O₃ / NOx / PM₂.₅ · Nature Cities scope</text>
+      <text x="225" y="0" fill="#94A3B8">· VOCs / O₃ / NOx / PM₂.₅ · Satellite &amp; Ground ML</text>
     </g>
 
     <!-- Log 2: Spatial -->

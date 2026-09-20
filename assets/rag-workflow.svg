@@ -67,7 +67,7 @@
     <text x="12" y="46" class="r-item">• Prompt Graph Engine</text>
     <text x="12" y="64" class="r-item">• Bengali · Hindi · EN</text>
     <text x="12" y="82" class="r-item">• Route Optimization</text>
-    <text x="12" y="104" class="r-item" fill="#F59E0B">[PLANNED: CLIENT]</text>
+    <text x="12" y="104" class="r-item" fill="#10B981">• Context Validation</text>
   </g>
 
   <line x1="735" y1="87" x2="760" y2="87" class="r-arrow"/>
@@ -79,22 +79,15 @@
     <rect width="145" height="3" fill="#8B5CF6" rx="1.5"/>
     <text x="12" y="24" class="r-head" fill="#A78BFA">05 // EGRESS</text>
     <text x="12" y="46" class="r-item">• Strict JSON Payload</text>
-    <text x="12" y="64" class="r-item">• Map Tile Reroute</text>
-    <text x="12" y="82" class="r-item">• Low-Latency Egress</text>
-    <text x="12" y="104" class="r-item" fill="#0284C7">[EXPLORING: WHATSAPP]</text>
+    <text x="12" y="64" class="r-item">• Map Tile Routing</text>
+    <text x="12" y="82" class="r-item">• Low-Latency Delivery</text>
+    <text x="12" y="104" class="r-item" fill="#10B981">• Webhook Response</text>
   </g>
 
   <!-- Legend Bar -->
   <g transform="translate(25, 175)" font-family="monospace" font-size="10">
     <rect x="0" y="0" width="80" height="20" class="r-badge-built"/>
-    <text x="12" y="14" fill="#10B981" font-weight="bold">[● BUILT]</text>
-    <text x="90" y="14" fill="#94A3B8">Kolkata Metropolitan Coordinates, PostGIS Schema, Gemini Prompts</text>
-    
-    <rect x="520" y="0" width="90" height="20" class="r-badge-plan"/>
-    <text x="528" y="14" fill="#F59E0B" font-weight="bold">[▲ PLANNED]</text>
-    <text x="618" y="14" fill="#94A3B8">Native Android Client</text>
-    
-    <rect x="740" y="0" width="100" height="20" class="r-badge-expl"/>
-    <text x="746" y="14" fill="#38BDF8" font-weight="bold">[◆ EXPLORING]</text>
+    <text x="12" y="14" fill="#10B981" font-weight="bold">[● ACTIVE]</text>
+    <text x="90" y="14" fill="#94A3B8">PostGIS Geospatial Engine · Gemini Reasoning Runtime · n8n State Machine Orchestration</text>
   </g>
 </svg>

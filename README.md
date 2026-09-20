@@ -61,15 +61,24 @@
 </td>
 <td valign="middle" width="55%" bgcolor="#080E1A">
 
-* 🎓 **Academic**: 3rd Year B.Tech Computer Science &amp; Engineering (AI/ML) at **Adamas University**  
-  * *Progression:* Secondary: **93.71%** · Higher Secondary: **89.60%** · B.Tech GPA: **9.3 → 9.5 → 9.43**
-* 🏛️ **Research Trajectory**: Selected for **ACM India Summer School 2026** (Edge AI &amp; Robotics) at the **Indian Institute of Science (IISc Bengaluru)**; upcoming 6-month research internship direction.
-* 🔬 **Environmental Intelligence &amp; GeoAI**: Metropolitan air quality modeling (VOCs, O₃, NOx, PM₂.₅) fusing Sentinel-5P/Landsat rasters via Google Earth Engine &amp; QGIS (*Nature Cities* journal scope).
-* 🚀 **Open Source Leadership**: Creator and lead maintainer of **[EaseMotion CSS](https://github.com/SAPTARSHI-coder/EaseMotion-css)** on [npm](https://www.npmjs.com/package/easemotion-css) (**12,000+ PRs merged**, **500+ global contributors**, GirlScript Summer of Code Lead).
-* 🇮🇳 **National Benchmark**: Ranked **#2 Top Public Contributor in India** on [committers.top/india_public](https://committers.top/india_public) with peak single-day velocity of **1,300+ commits**.
-* 🌐 **Ambassadorship**: Selected **Google Gemini Student Ambassador (2026)**.
-* 🏗️ **Dual-Mode Portfolio Architecture**: Architected [saptarshisadhu.co.in](https://saptarshisadhu.co.in/) with a 3D WebGL `<model-viewer>` orbital physics engine and a zero-framework high-speed static editorial branch (100/100 Lighthouse target).
-* ⚙️ **Systems &amp; Competitive**: **4★ C &amp; 3★ C++ on HackerRank** · Finalist in *Clash of Coders 2.0* · 4th Place in *Coding Premier League*.
+<table width="100%">
+<tr>
+<td bgcolor="#0F172A">
+<p align="left">
+<code><b>&gt; NODE_ID:</b></code> <code>SAPTARSHI SADHU</code><br/>
+<code><b>&gt; STATUS :</b></code> <img src="https://img.shields.io/badge/STATUS-OPERATIONAL [200 OK]-10B981?style=flat-square" alt="Status" /><br/>
+<code><b>&gt; ACADEMIC :</b></code> <code>3rd Year B.Tech CSE (AI/ML) · Adamas University</code><br/>
+<code><b>&gt; RESEARCH :</b></code> <code>ACM India Summer School '26 · IISc Bengaluru</code><br/>
+<code><b>&gt; RANKING  :</b></code> <img src="https://img.shields.io/badge/committers.top-%232 Contributor in India-00E5FF?style=flat-square" alt="Rank" /><br/>
+<code><b>&gt; VELOCITY :</b></code> <code>12,000+ PRs Merged · 1,300+ Commits in 24h</code>
+</p>
+</td>
+</tr>
+</table>
+
+<br/>
+
+> *"I don't just study models in notebooks. I build at the application layer while continuously going deeper into the systems beneath it — from satellite raster arrays and air quality chemical kinetics to ROS 2 perception pipelines, zero-dependency CSS frameworks, and resilient distributed APIs."*
 
 <br/>
 
@@ -156,7 +165,7 @@ Investigating the non-linear dynamics of metropolitan air pollution by coupling 
 * **Spatial Cross-Validation & Imbalance:**
   <br/>
   <img src="https://img.shields.io/badge/ADASYN-Adaptive_Oversampling-10B981?style=flat-square" />
-  <img src="https://img.shields.io/badge/Scope-Nature_Cities_Aligned-00E5FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/Pipeline-GEE_%26_QGIS_Raster_Fusion-00E5FF?style=flat-square" />
 
 </td>
 </tr>
@@ -188,7 +197,7 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 
 #### 🏛️ Research Lab & Institutional Direction
 * **ACM India Summer School 2026:** Selected for Edge AI & Robotics at the **Indian Institute of Science (IISc Bengaluru)**.
-* **IISc Research Internship:** Upcoming 6-month research internship trajectory focused on Edge AI, embedded environmental sensing, and hardware-in-the-loop validation.
+* **IISc Research Focus:** Edge AI acceleration, embedded environmental telemetry, and hardware-in-the-loop validation.
 * **QuanRobotics Shortlist:** Technical evaluation in ROS 2 architecture, robot perception pipelines, and physical simulator benchmarks.
 
 </td>
@@ -253,7 +262,7 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 <tr>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 01 // Dual-Mode WebGL Portfolio
+### 01 // Portfolio
 <img src="https://img.shields.io/badge/STATUS-PRODUCTION-10B981?style=flat-square" />
 <img src="https://img.shields.io/badge/LIGHTHOUSE-100%2F100_STATIC-00E5FF?style=flat-square" />
 
@@ -262,14 +271,14 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 <br/>
 
 * **Problem:** Portfolios force a tradeoff between visually heavy 3D experiences and lightweight, fast-loading pages for recruiters.
-* **Engineering:** Framework-less dual-mode gateway featuring an interactive 3D workstation rendered with Google's `<model-viewer>`, an orbital physics engine with dust trails, and an ultra-fast static editorial branch.
+* **Engineering:** Framework-less dual-mode gateway featuring an interactive 3D workstation rendered with Google's `<model-viewer>`, orbital physics with dust trails, and an ultra-fast static editorial branch.
 * **Stack:** Pure Vanilla JavaScript · HTML5 · CSS3 · WebGL · Zero Bundlers
 * **Links:** [Live Portfolio](https://saptarshisadhu.co.in) · [Source Code](https://github.com/SAPTARSHI-coder/Portfolio)
 
 </td>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 02 // SkyGlass Weather Engine
+### 02 // Weather-App
 <img src="https://img.shields.io/badge/STATUS-DEPLOYED_%2F_PRODUCTION-10B981?style=flat-square" />
 <img src="https://img.shields.io/badge/LATENCY-%3C100ms_FAILOVER-00E5FF?style=flat-square" />
 
@@ -278,44 +287,43 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 <br/>
 
 * **Problem:** Fragile weather frontends break when third-party upstream providers hit unexpected rate limits or HTTP 429 timeouts.
-* **Architecture:** Dual-provider circuit breaker cascade (WeatherAPI $\to$ Open-Meteo) with automatic client-side failover, RainViewer precipitation radar tile caching, and sub-100ms response envelope.
-* **Stack:** Python · FastAPI · JavaScript (ES6+) · REST APIs · Render
-* **Links:** [Production Engine](https://saptarshisadhu.co.in)
+* **Architecture:** SkyGlass multi-source weather intelligence engine fusing real-time telemetry from multiple weather APIs into a unified dashboard, featuring automatic failover cascade, RainViewer radar caching, and real-time AQI analytics.
+* **Stack:** Python · FastAPI · JavaScript (ES6+) · REST APIs · Glassmorphism UI
+* **Links:** [Live Engine](https://saptarshisadhu.co.in) · [Source Code](https://github.com/SAPTARSHI-coder/Weather-App)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 03 // SynthaVoice
-<img src="https://img.shields.io/badge/STATUS-RESEARCH_ACTIVE-38BDF8?style=flat-square" />
-<img src="https://img.shields.io/badge/INFERENCE-Wav2Vec_2.0-A855F7?style=flat-square" />
+### 03 // CivicAI
+<img src="https://img.shields.io/badge/STATUS-BUILT-10B981?style=flat-square" />
+<img src="https://img.shields.io/badge/AI-GEMINI_POWERED-4285F4?style=flat-square&logo=google-gemini&logoColor=white" />
 
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi&theme=dark" height="26" />
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" height="18" />
+<img src="https://skillicons.dev/icons?i=py,fastapi&theme=dark" height="26" />
 <br/>
 
-* **Problem:** Proliferation of deepfake audio clones and synthetic speech rendering legacy forensic verification methods obsolete.
-* **Architecture:** Ingests raw audio streams, normalizes to 16kHz, extracts latent acoustic representations via pretrained Wav2Vec 2.0 transformer backbones, and classifies synthetic artifacts with micro-spectral anomaly scoring.
-* **Stack:** Python · PyTorch · Hugging Face Transformers · Librosa · FastAPI
+* **Problem:** Confusing administrative documents (notices, certificates, ration cards, land records) exclude citizens due to complex bureaucratic jargon and unclear eligibility rules.
+* **Architecture:** AI public service assistant that translates complex government paperwork into plain-language explanations, audits scheme eligibility, flags missing documents, and answers follow-up inquiries via voice or text.
+* **Stack:** Python · Google Gemini API · NLP · FastAPI · Document AI
+* **Links:** [Source Code](https://github.com/SAPTARSHI-coder/CivicAI)
 
 </td>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 04 // Kolkata Pandal Companion
-<img src="https://img.shields.io/badge/STATUS-SPATIAL_RAG_BUILT-10B981?style=flat-square" />
-<img src="https://img.shields.io/badge/SCALE-3%2C000%2B_SITES-F59E0B?style=flat-square" />
+### 04 // LASA-Error-Prevention
+<img src="https://img.shields.io/badge/STATUS-OPEN_SOURCE-38BDF8?style=flat-square" />
+<img src="https://img.shields.io/badge/DOMAIN-CLINICAL_NLP-10B981?style=flat-square" />
 
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=react,postgres&theme=dark" height="26" />
-<img src="https://img.shields.io/badge/Gemini_Pro-AI_Reasoning-4285F4?style=flat-square&logo=google-gemini&logoColor=white" height="18" />
-<img src="https://img.shields.io/badge/n8n-Orchestration-EA4B71?style=flat-square&logo=n8n&logoColor=white" height="18" />
+<img src="https://skillicons.dev/icons?i=py,sklearn&theme=dark" height="26" />
 <br/>
 
-* **Problem:** Extreme crowd bottlenecks and navigation failure across 3,000+ unindexed cultural festival sites in the Kolkata Metropolitan Area (KMA).
-* **Architecture:** Geospatial PostGIS database connected to an n8n deterministic RAG state machine powering Google Gemini for context-aware, trilingual (Bengali / Hindi / English) guidance.
-* **Phases:** `[BUILT]` Spatial schemas · `[PLANNED]` Mobile client · `[EXPLORING]` Dynamic crowd rerouting
+* **Problem:** Look-Alike Sound-Alike (LASA) pharmaceutical brand names cause hazardous dispensing mistakes and adverse drug events in clinical environments.
+* **Architecture:** AI classification pipeline detecting confusable drug names using orthographic similarity, phonetic hashing (Metaphone/Soundex), and clinical context validation to flag high-risk pairs.
+* **Stack:** Python · Scikit-Learn · NLP · Phonetic Algorithms · Pandas
+* **Links:** [Source Code](https://github.com/SAPTARSHI-coder/AI-Based-Detection-of-Confusable-Drug-Names-for-Sound-Alike-Sound-Alike-LASA-Error-Prevention)
 
 </td>
 </tr>
@@ -573,8 +581,8 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 | ID | Domain | Credential / Benchmark | Verification Details |
 | :--- | :--- | :--- | :--- |
 | `CR-01` | 🏫 **Academic** | **ACM India Summer School 2026** | Selected for Edge AI & Robotics at Indian Institute of Science (IISc Bengaluru) |
-| `CR-02` | 🔬 **Research** | **IISc Bengaluru Trajectory** | 6-month research internship direction in Edge AI, IoT, and environmental sensing |
-| `CR-03` | 🌫️ **Research** | **Urban Air Quality ML** | Spatio-temporal VOC/O₃/NOx modeling aligned with **Nature Cities** scope |
+| `CR-02` | 🔬 **Research** | **IISc Bengaluru Trajectory** | Selected for ACM India Summer School (Edge AI & Robotics) at IISc Bengaluru |
+| `CR-03` | 🌫️ **Research** | **Air Quality ML Modeling** | Spatio-temporal VOC/O₃/NOx predictive analysis with Sentinel-5P satellite rasters & CPCB sensors |
 | `CR-04` | 🚀 **Open Source** | **#2 Contributor in India** | Ranked #2 Top Public Contributor on [committers.top/india_public](https://committers.top/india_public) |
 | `CR-05` | 📦 **Open Source** | **EaseMotion CSS Maintainer** | 12,000+ PRs merged, 500+ global contributors, GSSoC maintainer lead |
 | `CR-06` | 🌐 **Ambassador** | **Google Gemini Student Ambassador** | Selected Google Gemini Student Ambassador (2026) |

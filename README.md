@@ -262,7 +262,24 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 <tr>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 01 // Portfolio
+### 01 // EaseMotion CSS
+<img src="https://img.shields.io/badge/STATUS-PRODUCTION_%2F_NPM-10B981?style=flat-square" />
+<img src="https://img.shields.io/badge/STARS-279%E2%98%85-F59E0B?style=flat-square" />
+<img src="https://img.shields.io/badge/PRs-12%2C000%2B-00E5FF?style=flat-square" />
+
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=css,js,npm,githubactions&theme=dark" height="26" />
+<br/>
+
+* **Problem:** Heavy JavaScript animation packages introduce layout thrashing, performance bottlenecks, and bloated bundle sizes for modern web applications.
+* **Architecture:** Zero-dependency, GPU-accelerated 60fps CSS animation utility framework and accessible UI component architecture distributed globally on npm with 12,000+ PRs merged and 500+ contributors.
+* **Stack:** CSS3 · Vanilla JavaScript · PostCSS · npm · GitHub Actions CI/CD
+* **Links:** [npm Package](https://www.npmjs.com/package/easemotion-css) · [Source Code](https://github.com/SAPTARSHI-coder/EaseMotion-css)
+
+</td>
+<td width="50%" valign="top" bgcolor="#090D16">
+
+### 02 // Portfolio
 <img src="https://img.shields.io/badge/STATUS-PRODUCTION-10B981?style=flat-square" />
 <img src="https://img.shields.io/badge/LIGHTHOUSE-100%2F100_STATIC-00E5FF?style=flat-square" />
 
@@ -276,9 +293,11 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 * **Links:** [Live Portfolio](https://saptarshisadhu.co.in) · [Source Code](https://github.com/SAPTARSHI-coder/Portfolio)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 02 // Weather-App
+### 03 // Weather-App
 <img src="https://img.shields.io/badge/STATUS-DEPLOYED_%2F_PRODUCTION-10B981?style=flat-square" />
 <img src="https://img.shields.io/badge/LATENCY-%3C100ms_FAILOVER-00E5FF?style=flat-square" />
 
@@ -292,11 +311,27 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 * **Links:** [Live Engine](https://saptarshisadhu.co.in) · [Source Code](https://github.com/SAPTARSHI-coder/Weather-App)
 
 </td>
+<td width="50%" valign="top" bgcolor="#090D16">
+
+### 04 // GTA: Bharat Odyssey
+<img src="https://img.shields.io/badge/STATUS-LIVE_DEMO-10B981?style=flat-square" />
+<img src="https://img.shields.io/badge/HACKATHON-UNLAYER-EA4C89?style=flat-square" />
+
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind&theme=dark" height="26" />
+<br/>
+
+* **Problem:** Conventional web storytelling lacks interactive engagement, spatial immersion, and creative asset tools for users.
+* **Architecture:** Cinematic scrollytelling web experience and GTA-inspired heist mission creator powered by `@unlayer/react-image-editor`, HTML5 Canvas API, dynamic audio synthesis with Web Audio API, and custom mission card creation.
+* **Stack:** React · TypeScript · Vite · Tailwind CSS · Canvas API · Web Audio API · Unlayer Editor
+* **Links:** [Live Experience](https://gta-bharat-odyssey.vercel.app) · [Source Code](https://github.com/SAPTARSHI-coder/gta-bharat-odyssey)
+
+</td>
 </tr>
 <tr>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 03 // CivicAI
+### 05 // CivicAI
 <img src="https://img.shields.io/badge/STATUS-BUILT-10B981?style=flat-square" />
 <img src="https://img.shields.io/badge/AI-GEMINI_POWERED-4285F4?style=flat-square&logo=google-gemini&logoColor=white" />
 
@@ -312,7 +347,7 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 </td>
 <td width="50%" valign="top" bgcolor="#090D16">
 
-### 04 // LASA-Error-Prevention
+### 06 // LASA-Error-Prevention
 <img src="https://img.shields.io/badge/STATUS-OPEN_SOURCE-38BDF8?style=flat-square" />
 <img src="https://img.shields.io/badge/DOMAIN-CLINICAL_NLP-10B981?style=flat-square" />
 

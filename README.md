@@ -78,7 +78,7 @@
 
 <br/>
 
-> *"I don't just study models in notebooks. I build at the application layer while continuously going deeper into the systems beneath it — from satellite raster arrays and air quality chemical kinetics to ROS 2 perception pipelines, zero-dependency CSS frameworks, and resilient distributed APIs."*
+> *"I don't just study models in notebooks. I build at the application layer while continuously going deeper into the systems beneath it — from satellite raster arrays and air quality chemical kinetics to zero-dependency CSS frameworks, and resilient distributed APIs."*
 
 <br/>
 

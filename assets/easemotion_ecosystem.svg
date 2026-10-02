@@ -19,7 +19,7 @@
     <rect width="200" height="125" class="oss-card"/>
     <rect width="200" height="3" fill="#10B981" rx="1.5"/>
     <text x="14" y="26" class="oss-head">01 // COMMUNITY INGRESS</text>
-    <text x="14" y="50" class="oss-desc">• 500+ Global Contributors</text>
+    <text x="14" y="50" class="oss-desc">• 855+ Global Contributors</text>
     <text x="14" y="70" class="oss-desc">• GSSoC Mentorship Cohorts</text>
     <text x="14" y="90" class="oss-desc">• Issue Triage &amp; Label Taxonomy</text>
     <text x="14" y="110" class="oss-desc" fill="#38BDF8">Structured First-Timer Onboarding</text>
@@ -49,7 +49,7 @@
     <rect width="200" height="125" class="oss-card"/>
     <rect width="200" height="3" fill="#F59E0B" rx="1.5"/>
     <text x="14" y="26" class="oss-head" fill="#F59E0B">03 // ORCHESTRATION</text>
-    <text x="14" y="50" class="oss-desc">• 12,000+ PRs Merged</text>
+    <text x="14" y="50" class="oss-desc">• 44,000+ PRs Merged</text>
     <text x="14" y="70" class="oss-desc">• Peak 1,300+ Commits/Day</text>
     <text x="14" y="90" class="oss-desc">• Architectural Review Cycles</text>
     <text x="14" y="110" class="oss-desc" fill="#10B981">Ranked #2 Top Contributor in IN</text>

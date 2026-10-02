@@ -66,13 +66,13 @@
     <rect width="210" height="4" rx="2" fill="#38BDF8"/>
     <text x="16" y="26" class="w-head" fill="#38BDF8">In a nutshell</text>
     
-    <text x="16" y="58" class="w-metric" fill="#FFFFFF">12,000+</text>
+    <text x="16" y="58" class="w-metric" fill="#FFFFFF">44,000+</text>
     <text x="16" y="74" class="w-label">Pull Requests Merged</text>
 
     <text x="16" y="106" class="w-metric" fill="#38BDF8">1,300+</text>
     <text x="16" y="122" class="w-label">Commits in 24h Sprint</text>
 
-    <text x="16" y="154" class="w-metric" fill="#10B981">500+</text>
+    <text x="16" y="154" class="w-metric" fill="#10B981">855+</text>
     <text x="16" y="170" class="w-label">Global Contributors Led</text>
   </g>
 
@@ -85,7 +85,7 @@
     <g transform="translate(16, 48)">
       <rect width="178" height="28" rx="5" fill="#1E293B"/>
       <text x="10" y="18" class="w-item" font-weight="bold" fill="#FBBF24">EaseMotion CSS</text>
-      <text x="168" y="18" text-anchor="end" font-family="monospace" font-size="10" fill="#94A3B8">12k PRs</text>
+      <text x="168" y="18" text-anchor="end" font-family="monospace" font-size="10" fill="#94A3B8">44k PRs</text>
     </g>
 
     <g transform="translate(16, 84)">

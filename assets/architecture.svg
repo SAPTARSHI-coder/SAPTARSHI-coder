@@ -73,8 +73,8 @@
     <rect width="200" height="3" fill="#F59E0B" rx="1.5"/>
     <text x="14" y="26" class="node-title" fill="#F59E0B">03 // OPEN SOURCE ENG</text>
     <text x="14" y="50" class="node-item">• EaseMotion CSS Creator</text>
-    <text x="14" y="68" class="node-item">• 12,000+ PRs Merged</text>
-    <text x="14" y="86" class="node-item">• 500+ Global Contributors</text>
+    <text x="14" y="68" class="node-item">• 44,000+ PRs Merged</text>
+    <text x="14" y="86" class="node-item">• 855+ Global Contributors</text>
     <text x="14" y="104" class="node-item">• Automated CI/CD Actions</text>
     <text x="14" y="122" class="node-item">• GSSoC Mentorship Lead</text>
     <text x="14" y="142" class="node-accent" fill="#F59E0B">#2 India (committers.top)</text>

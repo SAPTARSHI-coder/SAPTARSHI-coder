@@ -70,7 +70,7 @@
 <code><b>&gt; ACADEMIC :</b></code> <code>3rd Year B.Tech CSE (AI/ML) · Adamas University</code><br/>
 <code><b>&gt; RESEARCH :</b></code> <code>ACM India Summer School '26 · IISc Bengaluru</code><br/>
 <code><b>&gt; RANKING  :</b></code> <img src="https://img.shields.io/badge/committers.top-%232_Contributor_in_India-00E5FF?style=flat-square" alt="Rank" /><br/>
-<code><b>&gt; VELOCITY :</b></code> <code>27,000+ PRs Merged · 1,300+ Commits in 24h · 99,000+ Contributions</code>
+<code><b>&gt; VELOCITY :</b></code> <code>44,078+ Merged PRs (51,055 Total) · 103,042+ Commits · 99,000+ Contributions</code>
 </p>
 </td>
 </tr>
@@ -233,22 +233,72 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 <table width="100%">
 <tr>
 <td width="33%" align="center" bgcolor="#090D16">
-  <h3 style="color:#00E5FF; margin:4px;">27,000+</h3>
-  <code>PULL REQUESTS MERGED</code><br/>
-  <small>Massive open-source velocity</small>
+  <h3 style="color:#00E5FF; margin:4px;">44,078+</h3>
+  <code>MERGED PULL REQUESTS</code><br/>
+  <small>51,055 total PRs · #89,485 max seq</small>
 </td>
 <td width="33%" align="center" bgcolor="#090D16">
-  <h3 style="color:#10B981; margin:4px;">850+</h3>
-  <code>CONTRIBUTORS ORCHESTRATED</code><br/>
-  <small>Global community governance</small>
+  <h3 style="color:#10B981; margin:4px;">103,042+</h3>
+  <code>COMMITS REACHED</code><br/>
+  <small>51,905 meaningful · 49,984 merges</small>
 </td>
 <td width="33%" align="center" bgcolor="#090D16">
-  <h3 style="color:#F59E0B; margin:4px;">1,300+</h3>
-  <code>PEAK COMMITS / 24H</code><br/>
-  <small>High-throughput sprint review</small>
+  <h3 style="color:#F59E0B; margin:4px;">855+</h3>
+  <code>CONTRIBUTORS ON WALL</code><br/>
+  <small>977 Git authors · 1,126 forks</small>
 </td>
 </tr>
 </table>
+
+> [!NOTE]
+> ### 📢 EaseMotion.css — Temporary Maintenance & Architectural Upgrade Phase
+> **Target Repository**: `SAPTARSHI-coder/EaseMotion-css`  
+> EaseMotion.css is temporarily in **private mode** as part of a scheduled core architectural maintenance process and version upgrade.
+> 
+> * 🔒 **Repository Status:** Temporarily private while core refactors and engine enhancements are integrated.
+> * 🛠️ **Contribution Activity:** External PR contributions paused during maintenance.
+> * 🧬 **Complete Git Provenance Preserved:** Full 6-month continuous development record (103,042+ commits) intact.
+> * 👥 **Contributor Recognition:** All 855+ community contributors who submitted code, opened issues, and participated via GSSoC remain permanently recorded in the project's history.
+> 
+> Below are the verified ground-truth snapshots captured directly prior to the private maintenance transition:
+
+<div align="center">
+  <a href="assets/easemotion-proof-1.png" target="_blank">
+    <img src="assets/easemotion-proof-1.png" alt="EaseMotion CSS Ground Truth Snapshot — 103,042 Commits, 1.1k Forks, 283 Stars, Merged PR #89485" width="100%" />
+  </a>
+  <p align="center">
+    <i><b>Figure 5.1:</b> EaseMotion-css verified repository header snapshot — 103,042 Commits, 1.1k Forks, 283 Stars, 537 open issues, and PR sequence up to #89,485.</i>
+  </p>
+  
+  <br/>
+
+  <a href="assets/easemotion-proof-2.png" target="_blank">
+    <img src="assets/easemotion-proof-2.png" alt="EaseMotion CSS Ground Truth Snapshot — 823+ Contributors & Repository File Tree" width="100%" />
+  </a>
+  <p align="center">
+    <i><b>Figure 5.2:</b> EaseMotion-css verified contributor wall & codebase tree — 823+ GitHub contributors, 500+ deployments, and multi-language codebase distribution.</i>
+  </p>
+</div>
+
+<br/>
+
+#### 📊 Verified Repository Telemetry & InfoBay Ground Truth Audit
+
+| Telemetry Metric | Measured / Ground Truth Value | Verification Method & Source |
+| :--- | :--- | :--- |
+| **Total Git Commits** | **103,042+ commits** | Desktop UI & InfoBay Static Analysis (`EaseMotion-css_report.json`) |
+| **Merged Pull Requests** | **44,078 PRs** | GitHub Search API (`is:pr is:merged`) |
+| **Total PR Submissions** | **51,055 PRs** | GitHub Search API (`is:pr`) · Highest Sequence: **#89,485** |
+| **Closed Issues** | **37,729 issues** | GitHub Search API (`is:issue is:closed`) |
+| **Total Issues Opened** | **38,280 issues** | GitHub Search API (`is:issue`) |
+| **Repository Forks** | **1,126 forks** | GitHub Public Telemetry (`1.1k` in UI) |
+| **Repository Stars** | **283 stars** | GitHub Public Telemetry (`283` in UI) |
+| **Contributor Wall** | **855 accounts** | GraphQL cursor pagination of merged PR authors (823+ in UI) |
+| **Unique Git Authors** | **977 unique author emails** | Git commit graph (1,095 deduplicated identities across machines) |
+| **Peak Sprint Velocity** | **1,300+ commits / 24h** | High-throughput maintainer sprint review cycles |
+| **National Standing** | **Rank #2 Public Contributor in India** | Verified on [committers.top/india_public](https://committers.top/india_public) |
+
+<br/>
 
 * **Framework Design:** Zero-dependency, GPU-accelerated 60fps CSS animation utility library and accessible UI component architecture distributed globally on **[npm](https://www.npmjs.com/package/easemotion-css)**.
 * **Community Leadership:** Mentored contributor cohorts through **GirlScript Summer of Code (GSSoC)**, reviewing architectural proposals, resolving git conflicts, and enforcing codebase hygiene.
@@ -263,16 +313,18 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 <td width="50%" valign="top" bgcolor="#090D16">
 
 ### 01 // EaseMotion CSS
-<img src="https://img.shields.io/badge/STATUS-PRODUCTION_%2F_NPM-10B981?style=flat-square" />
-<img src="https://img.shields.io/badge/STARS-279%E2%98%85-F59E0B?style=flat-square" />
-<img src="https://img.shields.io/badge/PRs-27%2C000%2B-00E5FF?style=flat-square" />
+<img src="https://img.shields.io/badge/STATUS-MAINTENANCE_%5BPRIVATE%5D-F59E0B?style=flat-square" />
+<img src="https://img.shields.io/badge/COMMITS-103%2C042%2B-00E5FF?style=flat-square" />
+<img src="https://img.shields.io/badge/MERGED_PRs-44%2C078-10B981?style=flat-square" />
+<img src="https://img.shields.io/badge/FORKS-1%2C126-38BDF8?style=flat-square" />
+<img src="https://img.shields.io/badge/STARS-283%E2%98%85-F59E0B?style=flat-square" />
 
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=css,js,npm,githubactions&theme=dark" height="26" />
 <br/>
 
 * **Problem:** Heavy JavaScript animation packages introduce layout thrashing, performance bottlenecks, and bloated bundle sizes for modern web applications.
-* **Architecture:** Zero-dependency, GPU-accelerated 60fps CSS animation utility framework and accessible UI component architecture distributed globally on npm with 27,000+ PRs merged and 850+ contributors.
+* **Architecture:** Zero-dependency, GPU-accelerated 60fps CSS animation utility framework and accessible UI component architecture distributed globally on npm. Reached 103,042+ commits, 44,078 merged PRs (51,055 total), 1,126 forks, and 855 contributors. Currently undergoing scheduled architectural maintenance in private mode.
 * **Stack:** CSS3 · Vanilla JavaScript · PostCSS · npm · GitHub Actions CI/CD
 * **Links:** [npm Package](https://www.npmjs.com/package/easemotion-css) · [Live Documentation](https://saptarshi-coder.github.io/EaseMotion-css/) · [Interactive Demo](https://saptarshi-coder.github.io/EaseMotion-css/demo.html)
 
@@ -522,11 +574,11 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 <!-- GITHUB TROPHIES SHOWCASE -->
 <h3 align="center">🏆 GitHub Profile Trophy Showcase</h3>
 <p align="center">
-  <i>Verified GitHub repository &amp; contribution milestone trophies (SSS Rank Hacker, God Committer, God Issuer).</i>
+  <i>Verified GitHub repository &amp; contribution milestone trophies (SSS+ PR Maestro, SSS Rank #2 India, SSS Hyper Sprint).</i>
 </p>
 
 <a href="https://github.com/SAPTARSHI-coder">
-  <img src="https://github-trophies.vercel.app/?username=SAPTARSHI-coder&theme=tokyonight&margin-w=15&margin-h=15" alt="GitHub Profile Trophies" width="100%" />
+  <img src="assets/trophies.svg" alt="Verified GitHub Profile Recognition &amp; Trophies" width="100%" />
 </a>
 
 <br/><br/>
@@ -602,11 +654,6 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 <!-- EASTER EGG CONTRIBUTION NAME ART: "SAPTARSHI" MATRIX -->
 <img src="assets/contribution-art.svg" alt="GitHub Contribution Name Art — SAPTARSHI Matrix" width="100%" />
 
-<br/><br/>
-
-<!-- SYSTEM RECOGNITION & MERIT TROPHIES -->
-<img src="assets/trophies.svg" alt="System Recognition Medallions & Trophies" width="100%" />
-
 </div>
 
 ---
@@ -619,7 +666,7 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 | `CR-02` | 🔬 **Research** | **IISc Bengaluru Trajectory** | Selected for ACM India Summer School (Edge AI & Robotics) at IISc Bengaluru |
 | `CR-03` | 🌫️ **Research** | **Air Quality ML Modeling** | Spatio-temporal VOC/O₃/NOx predictive analysis with Sentinel-5P satellite rasters & CPCB sensors |
 | `CR-04` | 🚀 **Open Source** | **#2 Contributor in India** | Ranked #2 Top Public Contributor on [committers.top/india_public](https://committers.top/india_public) |
-| `CR-05` | 📦 **Open Source** | **EaseMotion CSS Maintainer** | 27,000+ PRs merged, 850+ global contributors, GSSoC maintainer lead |
+| `CR-05` | 📦 **Open Source** | **EaseMotion CSS Maintainer** | 44,078 PRs merged (51,055 total), 103,042+ commits, 1,126 forks, 855+ contributors, GSSoC maintainer lead |
 | `CR-06` | 🌐 **Ambassador** | **Google Gemini Student Ambassador** | Selected Google Gemini Student Ambassador (2026) |
 | `CR-07` | ⚔️ **Competitive** | **Clash of Coders 2.0 Finalist** | Finalist in collegiate algorithmic and systems competition |
 | `CR-08` | 💻 **Competitive** | **Coding Premier League** | 4th Place in regional competitive programming championship |

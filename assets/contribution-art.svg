@@ -21,7 +21,7 @@
   <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
   <circle cx="52" cy="19" r="5" fill="#10B981"/>
   <text x="75" y="23" class="hdr-text">saptarshi@research-node: ~ /telemetry/activity-matrix --calendar (52-weeks)</text>
-  <text x="760" y="23" class="hdr-text" fill="#10B981">● 12,000+ MERGED PRs</text>
+  <text x="760" y="23" class="hdr-text" fill="#10B981">● 44,000+ MERGED PRs</text>
 
   <!-- Grid Day Labels -->
   <text x="38" y="80" class="lbl-text">Mon</text>

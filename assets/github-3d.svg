@@ -50,7 +50,7 @@
     <line x1="12" y1="215" x2="198" y2="215" stroke="#1E293B" stroke-width="1"/>
     <g transform="translate(14, 235)">
       <text x="0" y="0" class="stat-lbl">ALL-TIME VELOCITY</text>
-      <text x="0" y="20" class="stat-val">12,000+ <tspan font-size="10" fill="#94A3B8">PRs</tspan></text>
+      <text x="0" y="20" class="stat-val">44,000+ <tspan font-size="10" fill="#94A3B8">PRs</tspan></text>
       <text x="105" y="0" class="stat-lbl">PEAK DAILY RUN</text>
       <text x="105" y="20" class="stat-val">1,300+ <tspan font-size="10" fill="#94A3B8">LOGS</tspan></text>
       <text x="0" y="44" class="stat-lbl">NATIONAL STANDING</text>

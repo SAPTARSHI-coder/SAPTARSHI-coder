@@ -221,7 +221,7 @@
   <g transform="translate(-85, -10)">
     <rect x="0" y="0" width="170" height="18" rx="9" fill="#F59E0B" fill-opacity="0.08" stroke="#F59E0B" stroke-opacity="0.35"/>
     <circle cx="9" cy="9" r="2.5" fill="#F59E0B"/>
-    <text x="18" y="12.5" class="code-font" font-size="9" font-weight="700" fill="#FCD34D">12,000+ PRs MERGED</text>
+    <text x="18" y="12.5" class="code-font" font-size="9" font-weight="700" fill="#FCD34D">44,000+ PRs MERGED</text>
   </g>
 
   <!-- Chip 3: Research Status -->

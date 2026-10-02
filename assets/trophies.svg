@@ -39,7 +39,7 @@
     <text x="70" y="36" text-anchor="middle" font-size="16">🏆</text>
     <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#FBBF24">SSS+</text>
     <text x="70" y="77" text-anchor="middle" class="tr-title">PR Maestro</text>
-    <text x="70" y="90" text-anchor="middle" class="tr-desc">12,000+ Merged</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">44,000+ Merged</text>
   </g>
 
   <!-- Trophy 2: National Rank #2 -->
@@ -69,7 +69,7 @@
     <text x="70" y="36" text-anchor="middle" font-size="16">👥</text>
     <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#C084FC">SS+</text>
     <text x="70" y="77" text-anchor="middle" class="tr-title">Ecosystem Lead</text>
-    <text x="70" y="90" text-anchor="middle" class="tr-desc">500+ Contributors</text>
+    <text x="70" y="90" text-anchor="middle" class="tr-desc">855+ Contributors</text>
   </g>
 
   <!-- Trophy 5: IISc Research Node -->

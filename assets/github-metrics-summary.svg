@@ -25,13 +25,13 @@
       <text x="240" y="0" text-anchor="end" class="m-val" fill="#FBBF24">800+</text>
 
       <text x="0" y="25" class="m-row">⑂ Pull Requests Merged:</text>
-      <text x="240" y="25" text-anchor="end" class="m-val" fill="#38BDF8">12,000+</text>
+      <text x="240" y="25" text-anchor="end" class="m-val" fill="#38BDF8">44,078+</text>
 
       <text x="0" y="50" class="m-row">● Peak 24h Commits:</text>
       <text x="240" y="50" text-anchor="end" class="m-val" fill="#10B981">1,300+</text>
 
       <text x="0" y="75" class="m-row">👥 Contributors Mentored:</text>
-      <text x="240" y="75" text-anchor="end" class="m-val" fill="#C084FC">500+</text>
+      <text x="240" y="75" text-anchor="end" class="m-val" fill="#C084FC">855+</text>
 
       <text x="0" y="100" class="m-row">📦 Active Repositories:</text>
       <text x="240" y="100" text-anchor="end" class="m-val" fill="#E2E8F0">40+</text>

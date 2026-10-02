@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495px" height="195px">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="50%" stop-color="#0E1424"/>
+      <stop offset="100%" stop-color="#070A12"/>
+    </linearGradient>
+
+    <!-- Fire Gradients -->
+    <linearGradient id="flame_grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF3B30"/>
+      <stop offset="35%" stop-color="#FF9500"/>
+      <stop offset="75%" stop-color="#FFCC00"/>
+      <stop offset="100%" stop-color="#FFF7D6"/>
+    </linearGradient>
+
+    <linearGradient id="flame_text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF512F"/>
+      <stop offset="50%" stop-color="#F09819"/>
+      <stop offset="100%" stop-color="#FFD200"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="fire_glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="8" result="b2"/>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="soft_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes flameFlicker {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 6px #FF512F); }
+        50% { transform: scale(1.1) translateY(-1px); filter: drop-shadow(0 0 12px #FFCC00); }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke: #FF512F; stroke-opacity: 0.4; }
+        50% { stroke: #00E5FF; stroke-opacity: 0.8; }
+      }
+      @keyframes beaconRing {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      .flame-anim {
+        transform-origin: 247px 52px;
+        animation: flameFlicker 2s ease-in-out infinite;
+      }
+      .border-anim {
+        animation: borderPulse 5s ease-in-out infinite;
+      }
+      .beacon {
+        animation: beaconRing 1.8s ease-in-out infinite;
+      }
+      .stat-label {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        fill: #8B949E;
+        text-transform: uppercase;
+      }
+      .stat-num {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+        font-size: 26px;
+        font-weight: 800;
+      }
+      .stat-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 9.5px;
+        fill: #6E7681;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Card -->
+  <rect x="0.5" y="0.5" width="494" height="194" rx="10" ry="10" fill="url(#bg_dark)" stroke="#1E293B" stroke-width="1"/>
+  <rect class="border-anim" x="0.5" y="0.5" width="494" height="194" rx="10" ry="10" fill="none" stroke="#FF512F" stroke-width="1.5"/>
+
+  <!-- Top Burning Flame Bar -->
+  <rect x="0" y="0" width="495" height="3" rx="10" ry="2" fill="url(#flame_text)" opacity="0.95" filter="url(#soft_glow)"/>
+
+  <!-- Header Title -->
+  <text x="247.5" y="21" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#E2E8F0" letter-spacing="1">
+    🔥 GITHUB STREAK <tspan fill="#64748B">//</tspan> <tspan fill="url(#flame_text)">FIRE TELEMETRY</tspan>
+  </text>
+  
+  <line x1="20" y1="30" x2="475" y2="30" stroke="#1E293B" stroke-width="1"/>
+  <line x1="165" y1="30" x2="165" y2="180" stroke="#1E293B" stroke-width="1" stroke-opacity="0.6"/>
+  <line x1="330" y1="30" x2="330" y2="180" stroke="#1E293B" stroke-width="1" stroke-opacity="0.6"/>
+
+  <!-- ================= COLUMN 1: TOTAL CONTRIBUTIONS ================= -->
+  <!-- Chart Icon -->
+  <svg x="70" y="42" width="24" height="24" viewBox="0 0 24 24">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75zm6.75-4.5c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625zm6.75-4.5c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125z" fill="#3FB950"/>
+  </svg>
+  <text x="82" y="86" text-anchor="middle" class="stat-label">TOTAL CONTRIBUTIONS</text>
+  <text x="82" y="124" text-anchor="middle" class="stat-num" fill="#3FB950">99,208</text>
+  <text x="82" y="148" text-anchor="middle" class="stat-sub">98k+ Verified Calendar</text>
+
+  <!-- ================= COLUMN 2: CURRENT STREAK (HERO FIRE) ================= -->
+  <!-- Animated Burning Flame SVG -->
+  <g class="flame-anim" transform="translate(235, 40)">
+    <path d="M12 2c0 0-5 5.5-5 10 0 3.86 3.14 7 7 7s7-3.14 7-7c0-1.88-.74-3.59-1.96-4.85C18.66 8.5 18 10.5 16 11c0-3-2-6-4-9zm0 15c-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83.05 1.5 1.25 2.83 2.5 2.83.83 0 1.5-.67 1.5-1.5 0-.21-.04-.41-.12-.6 1.28.66 2.12 2.01 2.12 3.6 0 2.21-1.79 4-4 4z" 
+          fill="url(#flame_grad)" filter="url(#fire_glow)"/>
+  </g>
+  <text x="248" y="86" text-anchor="middle" class="stat-label">CURRENT STREAK</text>
+  <text x="248" y="124" text-anchor="middle" class="stat-num" fill="url(#flame_text)" filter="url(#soft_glow)">661 DAYS</text>
+  <text x="248" y="148" text-anchor="middle" class="stat-sub">Dec 11, 2024 – Present</text>
+  <text x="248" y="166" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#10B981">● 100% UNBROKEN</text>
+
+  <!-- ================= COLUMN 3: LONGEST STREAK ================= -->
+  <!-- Bolt Icon -->
+  <svg x="401" y="42" width="24" height="24" viewBox="0 0 24 24">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143z" fill="#00E5FF"/>
+  </svg>
+  <text x="413" y="86" text-anchor="middle" class="stat-label">LONGEST STREAK</text>
+  <text x="413" y="124" text-anchor="middle" class="stat-num" fill="#00E5FF">661 DAYS</text>
+  <text x="413" y="148" text-anchor="middle" class="stat-sub">Dec 11, 2024 – Oct 2, 2026</text>
+</svg>

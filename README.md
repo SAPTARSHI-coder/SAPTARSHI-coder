@@ -16,7 +16,7 @@
   <a href="https://github.com/SAPTARSHI-coder"><img src="https://img.shields.io/badge/GitHub-SAPTARSHI--coder-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://committers.top/india_public"><img src="https://user-badge.committers.top/india_public/SAPTARSHI-coder.svg" alt="Rank #2 Contributor in India" /></a>
   <a href="https://orcid.org/0009-0009-7505-1973"><img src="https://img.shields.io/badge/ORCID-0009--0009--7505--1973-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
-  <a href="https://www.hackerrank.com/"><img src="https://img.shields.io/badge/HackerRank-4%E2%98%85_C_%C2%B7_3%E2%98%85_C%2B%2B-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
+  <a href="https://www.hackerrank.com/profile/saptarshi_coder"><img src="https://img.shields.io/badge/HackerRank-4%E2%98%85_C_%C2%B7_3%E2%98%85_C%2B%2B-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
   <a href="https://buymeacoffee.com/saptarshisadhu"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
 </p>
 
@@ -66,11 +66,11 @@
 <td bgcolor="#0F172A">
 <p align="left">
 <code><b>&gt; NODE_ID:</b></code> <code>SAPTARSHI SADHU</code><br/>
-<code><b>&gt; STATUS :</b></code> <img src="https://img.shields.io/badge/STATUS-OPERATIONAL [200 OK]-10B981?style=flat-square" alt="Status" /><br/>
+<code><b>&gt; STATUS :</b></code> <img src="https://img.shields.io/badge/STATUS-OPERATIONAL%20%5B200_OK%5D-10B981?style=flat-square" alt="Status" /><br/>
 <code><b>&gt; ACADEMIC :</b></code> <code>3rd Year B.Tech CSE (AI/ML) · Adamas University</code><br/>
 <code><b>&gt; RESEARCH :</b></code> <code>ACM India Summer School '26 · IISc Bengaluru</code><br/>
-<code><b>&gt; RANKING  :</b></code> <img src="https://img.shields.io/badge/committers.top-%232 Contributor in India-00E5FF?style=flat-square" alt="Rank" /><br/>
-<code><b>&gt; VELOCITY :</b></code> <code>12,000+ PRs Merged · 1,300+ Commits in 24h</code>
+<code><b>&gt; RANKING  :</b></code> <img src="https://img.shields.io/badge/committers.top-%232_Contributor_in_India-00E5FF?style=flat-square" alt="Rank" /><br/>
+<code><b>&gt; VELOCITY :</b></code> <code>27,000+ PRs Merged · 1,300+ Commits in 24h · 99,000+ Contributions</code>
 </p>
 </td>
 </tr>
@@ -210,8 +210,8 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 
 <div align="center">
 
-<a href="https://github.com/SAPTARSHI-coder/EaseMotion-css">
-  <img src="https://img.shields.io/badge/GITHUB-EaseMotion--css-00E5FF?style=for-the-badge&logo=github&logoColor=black" />
+<a href="https://saptarshi-coder.github.io/EaseMotion-css/">
+  <img src="https://img.shields.io/badge/DOCS-EaseMotion--css-00E5FF?style=for-the-badge&logo=google-chrome&logoColor=black" />
 </a>
 &nbsp;
 <a href="https://www.npmjs.com/package/easemotion-css">
@@ -233,12 +233,12 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 <table width="100%">
 <tr>
 <td width="33%" align="center" bgcolor="#090D16">
-  <h3 style="color:#00E5FF; margin:4px;">12,000+</h3>
+  <h3 style="color:#00E5FF; margin:4px;">27,000+</h3>
   <code>PULL REQUESTS MERGED</code><br/>
   <small>Massive open-source velocity</small>
 </td>
 <td width="33%" align="center" bgcolor="#090D16">
-  <h3 style="color:#10B981; margin:4px;">500+</h3>
+  <h3 style="color:#10B981; margin:4px;">850+</h3>
   <code>CONTRIBUTORS ORCHESTRATED</code><br/>
   <small>Global community governance</small>
 </td>
@@ -265,16 +265,16 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 ### 01 // EaseMotion CSS
 <img src="https://img.shields.io/badge/STATUS-PRODUCTION_%2F_NPM-10B981?style=flat-square" />
 <img src="https://img.shields.io/badge/STARS-279%E2%98%85-F59E0B?style=flat-square" />
-<img src="https://img.shields.io/badge/PRs-12%2C000%2B-00E5FF?style=flat-square" />
+<img src="https://img.shields.io/badge/PRs-27%2C000%2B-00E5FF?style=flat-square" />
 
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=css,js,npm,githubactions&theme=dark" height="26" />
 <br/>
 
 * **Problem:** Heavy JavaScript animation packages introduce layout thrashing, performance bottlenecks, and bloated bundle sizes for modern web applications.
-* **Architecture:** Zero-dependency, GPU-accelerated 60fps CSS animation utility framework and accessible UI component architecture distributed globally on npm with 12,000+ PRs merged and 500+ contributors.
+* **Architecture:** Zero-dependency, GPU-accelerated 60fps CSS animation utility framework and accessible UI component architecture distributed globally on npm with 27,000+ PRs merged and 850+ contributors.
 * **Stack:** CSS3 · Vanilla JavaScript · PostCSS · npm · GitHub Actions CI/CD
-* **Links:** [npm Package](https://www.npmjs.com/package/easemotion-css) · [Source Code](https://github.com/SAPTARSHI-coder/EaseMotion-css)
+* **Links:** [npm Package](https://www.npmjs.com/package/easemotion-css) · [Live Documentation](https://saptarshi-coder.github.io/EaseMotion-css/) · [Interactive Demo](https://saptarshi-coder.github.io/EaseMotion-css/demo.html)
 
 </td>
 <td width="50%" valign="top" bgcolor="#090D16">
@@ -545,7 +545,7 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
   </a>
 </td>
 <td align="center" width="50%" bgcolor="#090D16">
-  <a href="https://www.hackerrank.com/">
+  <a href="https://www.hackerrank.com/profile/saptarshi_coder">
     <img src="assets/hackerrank-stats.svg" alt="HackerRank Telemetry" width="100%" />
   </a>
 </td>
@@ -560,7 +560,7 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
   <i>Cumulative tracked coding time, language distribution, and daily engineering bandwidth.</i>
 </p>
 
-<a href="https://wakatime.com/@SAPTARSHI-coder">
+<a href="https://saptarshisadhu.co.in/">
   <img src="assets/wakatime-stats.svg" alt="WakaTime Development Telemetry" width="100%" />
 </a>
 
@@ -586,12 +586,12 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 <tr>
 <td align="center" width="50%" bgcolor="#090D16">
   <a href="https://github.com/SAPTARSHI-coder">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true" alt="Saptarshi's GitHub Stats" width="100%" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Saptarshi's GitHub Stats" width="100%" />
   </a>
 </td>
 <td align="center" width="50%" bgcolor="#090D16">
-  <a href="https://github.com/SAPTARSHI-coder">
-    <img src="https://streak-stats.demolab.com?user=SAPTARSHI-coder&theme=tokyonight&hide_border=true&background=090D16&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="GitHub Live Streak Tracker" width="100%" />
+  <a href="https://github.com/SAPTARSHI-coder/github-streak-bot">
+    <img src="assets/streak-tracker.svg" alt="GitHub Live Fire Streak Tracker" width="100%" />
   </a>
 </td>
 </tr>
@@ -619,7 +619,7 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 | `CR-02` | 🔬 **Research** | **IISc Bengaluru Trajectory** | Selected for ACM India Summer School (Edge AI & Robotics) at IISc Bengaluru |
 | `CR-03` | 🌫️ **Research** | **Air Quality ML Modeling** | Spatio-temporal VOC/O₃/NOx predictive analysis with Sentinel-5P satellite rasters & CPCB sensors |
 | `CR-04` | 🚀 **Open Source** | **#2 Contributor in India** | Ranked #2 Top Public Contributor on [committers.top/india_public](https://committers.top/india_public) |
-| `CR-05` | 📦 **Open Source** | **EaseMotion CSS Maintainer** | 12,000+ PRs merged, 500+ global contributors, GSSoC maintainer lead |
+| `CR-05` | 📦 **Open Source** | **EaseMotion CSS Maintainer** | 27,000+ PRs merged, 850+ global contributors, GSSoC maintainer lead |
 | `CR-06` | 🌐 **Ambassador** | **Google Gemini Student Ambassador** | Selected Google Gemini Student Ambassador (2026) |
 | `CR-07` | ⚔️ **Competitive** | **Clash of Coders 2.0 Finalist** | Finalist in collegiate algorithmic and systems competition |
 | `CR-08` | 💻 **Competitive** | **Coding Premier League** | 4th Place in regional competitive programming championship |

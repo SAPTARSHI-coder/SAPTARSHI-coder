@@ -54,6 +54,14 @@
     <!-- C++ 14% = 39.6 -->
     <!-- SQL/Others 10% = 28.3 -->
     <g transform="translate(75, 125)">
+      <!-- Animated Rotating Cyber Reticle Rings around Donut -->
+      <circle r="58" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="25 60" opacity="0.75">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="64" fill="none" stroke="#8B5CF6" stroke-width="0.8" stroke-dasharray="15 45" opacity="0.5">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+
       <circle r="45" fill="none" stroke="#1E293B" stroke-width="20"/>
       <!-- Python -->
       <circle r="45" fill="none" stroke="#00E5FF" stroke-width="20"
@@ -109,7 +117,9 @@
         <!-- 14-16 --> <rect x="133" y="10" width="14" height="75" rx="2" fill="#10B981"/>
         <!-- 16-18 --> <rect x="152" y="5" width="14" height="80" rx="2" fill="#10B981"/>
         <!-- 18-20 --> <rect x="171" y="15" width="14" height="70" rx="2" fill="#10B981"/>
-        <!-- 20-22 --> <rect x="190" y="0" width="14" height="85" rx="2" fill="#F59E0B"/>
+        <!-- 20-22 --> <rect x="190" y="0" width="14" height="85" rx="2" fill="#F59E0B">
+          <animate attributeName="opacity" values="0.8; 1; 0.8" dur="1.4s" repeatCount="indefinite"/>
+        </rect>
         <!-- 22-24 --> <rect x="209" y="10" width="14" height="75" rx="2" fill="#00E5FF"/>
       </g>
       
@@ -120,8 +130,11 @@
       <text x="210" y="125" font-family="monospace" font-size="9" fill="#64748B">24h</text>
 
       <!-- Key Insight -->
-      <rect x="0" y="135" width="233" height="25" rx="4" fill="#0F172A" stroke="#334155"/>
-      <text x="8" y="151" font-family="monospace" font-size="9.5" fill="#38BDF8">⚡ Peak Sprint: Late-Night Sync (20-02h)</text>
+      <rect x="0" y="135" width="233" height="25" rx="4" fill="#0F172A" stroke="#F59E0B" stroke-width="0.8"/>
+      <circle cx="10" cy="147.5" r="3" fill="#F59E0B">
+        <animate attributeName="opacity" values="1; 0.2; 1" dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="18" y="151" font-family="monospace" font-size="9.5" fill="#FBBF24">⚡ Peak Sprint: Late-Night Sync (20-02h)</text>
     </g>
   </g>
 </svg>

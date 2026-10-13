@@ -4,6 +4,18 @@
       <stop offset="0%" stop-color="#0B1120"/>
       <stop offset="100%" stop-color="#050811"/>
     </linearGradient>
+    <linearGradient id="radar_sweep_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#00E5FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="radar_laser_glow">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     <style>
       .hud-title { font-family: 'Fira Code', monospace; font-size: 11px; fill: #94A3B8; }
       .stat-val { font-family: 'Fira Code', monospace; font-size: 16px; fill: #00E5FF; font-weight: bold; }
@@ -23,7 +35,10 @@
   <circle cx="54" cy="19" r="5" fill="#10B981"/>
   <text x="78" y="23" class="hud-title">saptarshi@research-node: ~ /telemetry/github-3d-isometric --mode=render</text>
   <rect x="760" y="8" width="160" height="20" rx="4" fill="#071322" stroke="#00E5FF" stroke-width="0.8"/>
-  <circle cx="772" cy="18" r="3.5" fill="#00E5FF"/>
+  <circle cx="772" cy="18" r="3.5" fill="#00E5FF">
+    <animate attributeName="opacity" values="1; 0.25; 1" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3.5; 5; 3.5" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
   <text x="782" y="22" font-family="monospace" font-size="10" fill="#38BDF8" font-weight="bold">3D ENGINE: ONLINE</text>
 
   <!-- LEFT: Radar Pentagram Telemetry -->
@@ -36,8 +51,39 @@
       <polygon points="0,-65 62,-20 38,53 -38,53 -62,-20" fill="none" stroke="#1E293B" stroke-width="1"/>
       <polygon points="0,-45 43,-14 26,36 -26,36 -43,-14" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="2,3"/>
       <polygon points="0,-25 24,-8 15,20 -15,20 -24,-8" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="2,3"/>
+
+      <!-- Animated Rotating Radar Scan Beam -->
+      <g>
+        <path d="M 0 0 L 0 -65 A 65 65 0 0 1 56 -32 Z" fill="url(#radar_sweep_grad)"/>
+        <line x1="0" y1="0" x2="0" y2="-65" stroke="#00E5FF" stroke-width="1.8" filter="url(#radar_laser_glow)"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" repeatCount="indefinite"/>
+      </g>
+
       <!-- Metric Polygon -->
       <polygon points="0,-60 58,-18 36,49 -34,48 -58,-19" fill="#00E5FF" fill-opacity="0.22" stroke="#00E5FF" stroke-width="1.8"/>
+
+      <!-- Pulsing Radar Metric Nodes -->
+      <circle cx="0" cy="-60" r="3" fill="#00E5FF">
+        <animate attributeName="r" values="2.5; 5.5; 2.5" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1; 0.4; 1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="58" cy="-18" r="3" fill="#00E5FF">
+        <animate attributeName="r" values="2.5; 5.5; 2.5" dur="1.8s" begin="0.36s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1; 0.4; 1" dur="1.8s" begin="0.36s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="36" cy="49" r="3" fill="#00E5FF">
+        <animate attributeName="r" values="2.5; 5.5; 2.5" dur="1.8s" begin="0.72s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1; 0.4; 1" dur="1.8s" begin="0.72s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-34" cy="48" r="3" fill="#00E5FF">
+        <animate attributeName="r" values="2.5; 5.5; 2.5" dur="1.8s" begin="1.08s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1; 0.4; 1" dur="1.8s" begin="1.08s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-58" cy="-19" r="3" fill="#00E5FF">
+        <animate attributeName="r" values="2.5; 5.5; 2.5" dur="1.8s" begin="1.44s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1; 0.4; 1" dur="1.8s" begin="1.44s" repeatCount="indefinite"/>
+      </circle>
+
       <!-- Labels -->
       <text x="0" y="-72" text-anchor="middle" class="rad-lbl">COMMITS (98%)</text>
       <text x="70" y="-15" class="rad-lbl">PRs (99%)</text>
@@ -1774,7 +1820,9 @@
     <text x="12" y="162" font-family="monospace" font-size="11" fill="#FBBF24" font-weight="bold">Sync: Nominal (0ms)</text>
     
     <line x1="12" y1="174" x2="153" y2="174" stroke="#1E293B" stroke-width="0.8"/>
-    <circle cx="18" cy="192" r="3.5" fill="#10B981"/>
+    <circle cx="18" cy="192" r="3.5" fill="#10B981">
+      <animate attributeName="opacity" values="1; 0.2; 1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
     <text x="28" y="196" font-family="monospace" font-size="9" fill="#94A3B8">BUFFER: OPTIMIZED</text>
   </g>
 </svg>

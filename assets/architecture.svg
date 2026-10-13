@@ -35,11 +35,19 @@
     <text x="175" y="60" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#94A3B8">AI RESEARCHER · SYSTEMS BUILDER · OPEN SOURCE MAINTAINER</text>
   </g>
 
-  <!-- Bus Distribution Lines From Core -->
-  <path d="M 470 122 L 470 150 L 130 150 L 130 170" fill="none" class="bus-line"/>
-  <path d="M 470 122 L 470 150 L 360 150 L 360 170" fill="none" class="bus-green"/>
-  <path d="M 470 122 L 470 150 L 580 150 L 580 170" fill="none" class="bus-amber"/>
-  <path d="M 470 122 L 470 150 L 810 150 L 810 170" fill="none" class="bus-line"/>
+  <!-- Bus Distribution Lines From Core with Animated Energy Flow -->
+  <path d="M 470 122 L 470 150 L 130 150 L 130 170" fill="none" stroke="#00E5FF" stroke-width="1.8" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 470 122 L 470 150 L 360 150 L 360 170" fill="none" stroke="#10B981" stroke-width="1.8" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="1.2s" begin="0.3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 470 122 L 470 150 L 580 150 L 580 170" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="1.2s" begin="0.6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 470 122 L 470 150 L 810 150 L 810 170" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="1.2s" begin="0.9s" repeatCount="indefinite"/>
+  </path>
 
   <!-- CLUSTER 1: RESEARCH & GeoAI -->
   <g transform="translate(30, 170)">

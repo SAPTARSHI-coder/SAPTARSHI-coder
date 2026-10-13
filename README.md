@@ -638,7 +638,7 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 <tr>
 <td align="center" width="50%" bgcolor="#090D16">
   <a href="https://github.com/SAPTARSHI-coder">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Saptarshi's GitHub Stats" width="100%" />
+    <img src="assets/github-stats.svg" alt="Saptarshi's Verified Core Telemetry &amp; Stats" width="100%" />
   </a>
 </td>
 <td align="center" width="50%" bgcolor="#090D16">

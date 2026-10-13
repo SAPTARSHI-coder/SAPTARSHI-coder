@@ -25,14 +25,18 @@
     <text x="14" y="110" class="oss-desc" fill="#38BDF8">Structured First-Timer Onboarding</text>
   </g>
 
-  <!-- Arrow 1 -> 2 -->
-  <line x1="230" y1="87" x2="260" y2="87" class="oss-link"/>
+  <!-- Arrow 1 -> 2 (Flowing Energy Line) -->
+  <line x1="230" y1="87" x2="260" y2="87" stroke="#10B981" stroke-width="2" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.8s" repeatCount="indefinite"/>
+  </line>
   <polygon points="260,84 266,87 260,90" fill="#10B981"/>
 
   <!-- Module 2 -->
   <g transform="translate(270, 25)">
     <rect width="200" height="125" class="oss-card"/>
-    <rect width="200" height="3" fill="#00E5FF" rx="1.5"/>
+    <rect width="200" height="3" fill="#00E5FF" rx="1.5">
+      <animate attributeName="opacity" values="0.7; 1; 0.7" dur="2s" repeatCount="indefinite"/>
+    </rect>
     <text x="14" y="26" class="oss-head" fill="#00E5FF">02 // AUTOMATION GATES</text>
     <text x="14" y="50" class="oss-desc">• GitHub Actions CI/CD</text>
     <text x="14" y="70" class="oss-desc">• Automated Lint &amp; CSS Minify</text>
@@ -40,14 +44,18 @@
     <text x="14" y="110" class="oss-desc" fill="#38BDF8">Regression Testing &amp; Bot Guard</text>
   </g>
 
-  <!-- Arrow 2 -> 3 -->
-  <line x1="475" y1="87" x2="505" y2="87" class="oss-link"/>
-  <polygon points="505,84 511,87 505,90" fill="#10B981"/>
+  <!-- Arrow 2 -> 3 (Flowing Energy Line) -->
+  <line x1="475" y1="87" x2="505" y2="87" stroke="#00E5FF" stroke-width="2" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="505,84 511,87 505,90" fill="#00E5FF"/>
 
   <!-- Module 3 -->
   <g transform="translate(515, 25)">
     <rect width="200" height="125" class="oss-card"/>
-    <rect width="200" height="3" fill="#F59E0B" rx="1.5"/>
+    <rect width="200" height="3" fill="#F59E0B" rx="1.5">
+      <animate attributeName="opacity" values="0.7; 1; 0.7" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
     <text x="14" y="26" class="oss-head" fill="#F59E0B">03 // ORCHESTRATION</text>
     <text x="14" y="50" class="oss-desc">• 44,000+ PRs Merged</text>
     <text x="14" y="70" class="oss-desc">• Peak 1,300+ Commits/Day</text>
@@ -55,9 +63,11 @@
     <text x="14" y="110" class="oss-desc" fill="#10B981">Ranked #2 Top Contributor in IN</text>
   </g>
 
-  <!-- Arrow 3 -> 4 -->
-  <line x1="720" y1="87" x2="750" y2="87" class="oss-link"/>
-  <polygon points="750,84 756,87 750,90" fill="#10B981"/>
+  <!-- Arrow 3 -> 4 (Flowing Energy Line) -->
+  <line x1="720" y1="87" x2="750" y2="87" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="750,84 756,87 750,90" fill="#F59E0B"/>
 
   <!-- Module 4 -->
   <g transform="translate(760, 25)">

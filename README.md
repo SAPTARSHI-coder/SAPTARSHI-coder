@@ -538,112 +538,24 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 
 <br/>
 
-<!-- GITHUB PROFILE SUMMARY CARDS -->
-<h3 align="center">📊 GitHub Profile Summary Telemetry</h3>
+<br/>
+
+<!-- LIVE GITHUB STATS & FIRE STREAK DECK -->
+<h3 align="center">⚡ Live Engineering Telemetry &amp; Streak Deck</h3>
 <p align="center">
-  <i>Multi-dimensional telemetry breakdown of contributions, repository ratios, and productivity patterns.</i>
+  <i>Dynamically generated live telemetry querying the GitHub API in real time.</i>
 </p>
 
-<a href="https://github.com/SAPTARSHI-coder">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SAPTARSHI-coder&theme=tokyonight" alt="GitHub Profile Details" width="100%" />
-</a>
-
-<br/><br/>
-
-<table width="100%">
-<tr>
-<td width="50%" align="center" bgcolor="#090D16">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SAPTARSHI-coder&theme=tokyonight" alt="Top Languages by Repo" width="100%" />
-</td>
-<td width="50%" align="center" bgcolor="#090D16">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SAPTARSHI-coder&theme=tokyonight" alt="Top Languages by Commit" width="100%" />
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" bgcolor="#090D16">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SAPTARSHI-coder&theme=tokyonight" alt="Overall GitHub Stats Summary" width="100%" />
-</td>
-<td width="50%" align="center" bgcolor="#090D16">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SAPTARSHI-coder&theme=tokyonight" alt="Productive Time Matrix" width="100%" />
-</td>
-</tr>
-</table>
-
-<br/><br/>
-
-<!-- GITHUB TROPHIES SHOWCASE -->
-<h3 align="center">🏆 GitHub Profile Trophy Showcase</h3>
-<p align="center">
-  <i>Verified GitHub repository &amp; contribution milestone trophies (SSS+ PR Maestro, SSS Rank #2 India, SSS Hyper Sprint).</i>
-</p>
-
-<a href="https://github.com/SAPTARSHI-coder">
-  <img src="assets/trophies.svg" alt="Verified GitHub Profile Recognition &amp; Trophies" width="100%" />
-</a>
-
-<br/><br/>
-
-<!-- COMPETITIVE PROGRAMMING & ALGORITHM TELEMETRY (LEETCODE & HACKERRANK) -->
-<h3 align="center">⚔️ Algorithmic &amp; Systems Problem Solving</h3>
-<p align="center">
-  <i>Verified competitive programming telemetry across LeetCode live ratings and HackerRank star proficiencies.</i>
-</p>
-
-<table width="100%">
-<tr>
-<td align="center" width="50%" bgcolor="#090D16">
-  <a href="https://leetcode.com/u/SAPTARSHI-coder/">
-    <img src="https://leetcard.jacoblin.cool/SAPTARSHI-coder?theme=tokyonight&font=Fira%20Code" alt="LeetCode Telemetry" width="100%" />
-  </a>
-</td>
-<td align="center" width="50%" bgcolor="#090D16">
-  <a href="https://www.hackerrank.com/profile/saptarshi_coder">
-    <img src="assets/hackerrank-stats.svg" alt="HackerRank Telemetry" width="100%" />
-  </a>
-</td>
-</tr>
-</table>
-
-<br/><br/>
-
-<!-- WAKATIME DEVELOPMENT VELOCITY TELEMETRY -->
-<h3 align="center">⏱️ Development Velocity &amp; Coding Telemetry (WakaTime)</h3>
-<p align="center">
-  <i>Cumulative tracked coding time, language distribution, and daily engineering bandwidth.</i>
-</p>
-
-<a href="https://saptarshisadhu.co.in/">
-  <img src="assets/wakatime-stats.svg" alt="WakaTime Development Telemetry" width="100%" />
-</a>
-
-<br/><br/>
-
-<!-- GITHUB WRAPPED 2026 DASHBOARD -->
-<img src="assets/github-wrapped.svg" alt="Saptarshi Sadhu — GitHub Wrapped 2026" width="100%" />
-
-<br/><br/>
-
-<!-- 3D ISOMETRIC CONTRIBUTION TERRAIN -->
-<img src="assets/github-3d.svg" alt="3D Isometric GitHub Contribution Terrain" width="100%" />
-
-<br/><br/>
-
-<!-- GITHUB METRICS & DONUT SUMMARY -->
-<img src="assets/github-metrics-summary.svg" alt="GitHub Metrics and Language Donut Summary" width="100%" />
-
-<br/><br/>
-
-<!-- LIVE GITHUB STATS & STREAK CARDS -->
 <table width="100%">
 <tr>
 <td align="center" width="50%" bgcolor="#090D16">
   <a href="https://github.com/SAPTARSHI-coder">
-    <img src="assets/github-stats.svg" alt="Saptarshi's Verified Core Telemetry &amp; Stats" width="100%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=SAPTARSHI-coder&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Saptarshi's Live GitHub Stats" width="100%" />
   </a>
 </td>
 <td align="center" width="50%" bgcolor="#090D16">
-  <a href="https://github.com/SAPTARSHI-coder/github-streak-bot">
-    <img src="assets/streak-tracker.svg" alt="GitHub Live Fire Streak Tracker" width="100%" />
+  <a href="https://github.com/SAPTARSHI-coder">
+    <img src="https://streak-stats.demolab.com/?user=SAPTARSHI-coder&theme=dark&fire=FF3B30&ring=FF9500&currStreakNum=FFCC00&currStreakLabel=FF9500&sideNums=00E5FF&sideLabels=38BDF8&dates=64748B&background=090D16&border=1E293B" alt="GitHub Live Fire Streak Tracker" width="100%" />
   </a>
 </td>
 </tr>
@@ -651,8 +563,27 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 
 <br/><br/>
 
-<!-- EASTER EGG CONTRIBUTION NAME ART: "SAPTARSHI" MATRIX -->
-<img src="assets/contribution-art.svg" alt="GitHub Contribution Name Art — SAPTARSHI Matrix" width="100%" />
+<!-- LIVE CODEBASE LANGUAGE DISTRIBUTION -->
+<h3 align="center">💻 Live Language &amp; Codebase Distribution</h3>
+<p align="center">
+  <i>Real-time automated language breakdown aggregated dynamically across all repositories.</i>
+</p>
+
+<a href="https://github.com/SAPTARSHI-coder">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAPTARSHI-coder&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="65%" />
+</a>
+
+<br/><br/>
+
+<!-- COMPETITIVE PROGRAMMING & ALGORITHM TELEMETRY (LEETCODE) -->
+<h3 align="center">⚔️ Algorithmic &amp; Systems Problem Solving</h3>
+<p align="center">
+  <i>Verified competitive programming telemetry dynamically synced live from LeetCode.</i>
+</p>
+
+<a href="https://leetcode.com/u/SAPTARSHI-coder/">
+  <img src="https://leetcard.jacoblin.cool/SAPTARSHI-coder?theme=tokyonight&font=Fira%20Code" alt="LeetCode Telemetry" width="65%" />
+</a>
 
 </div>
 

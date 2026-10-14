@@ -42,13 +42,13 @@
     <text x="70" y="90" text-anchor="middle" class="tr-desc">44,000+ Merged</text>
   </g>
 
-  <!-- Trophy 2: National Rank #2 -->
+  <!-- Trophy 2: National Rank #1 -->
   <g transform="translate(175, 36)">
-    <rect width="140" height="100" class="tr-card" stroke="#10B981"/>
-    <circle cx="70" cy="30" r="16" fill="#064E3B" stroke="#10B981" stroke-width="1.5"/>
-    <text x="70" y="36" text-anchor="middle" font-size="16">🇮🇳</text>
-    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#34D399">SSS</text>
-    <text x="70" y="77" text-anchor="middle" class="tr-title">Rank #2 India</text>
+    <rect width="140" height="100" class="tr-card" stroke="#FFD700"/>
+    <circle cx="70" cy="30" r="16" fill="#78350F" stroke="#FFD700" stroke-width="1.5"/>
+    <text x="70" y="36" text-anchor="middle" font-size="16">🥇</text>
+    <text x="70" y="62" text-anchor="middle" class="tr-grade" fill="#FBBF24">SSS+</text>
+    <text x="70" y="77" text-anchor="middle" class="tr-title">Rank #1 India</text>
     <text x="70" y="90" text-anchor="middle" class="tr-desc">committers.top</text>
   </g>
 

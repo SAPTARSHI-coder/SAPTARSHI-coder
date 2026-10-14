@@ -148,7 +148,7 @@
     <rect width="205" height="4" rx="2" fill="#10B981"/>
     <text x="16" y="26" class="w-head" fill="#34D399">Eyes to the sky</text>
 
-    <text x="16" y="58" class="w-metric" fill="#10B981">Rank #2</text>
+    <text x="16" y="58" class="w-metric" fill="#FFD700">Rank #1</text>
     <text x="16" y="74" class="w-label">Top Contributor in India</text>
 
     <text x="16" y="106" class="w-metric" fill="#00E5FF">IISc '26</text>

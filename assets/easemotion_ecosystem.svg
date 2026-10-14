@@ -60,7 +60,7 @@
     <text x="14" y="50" class="oss-desc">• 44,000+ PRs Merged</text>
     <text x="14" y="70" class="oss-desc">• Peak 1,300+ Commits/Day</text>
     <text x="14" y="90" class="oss-desc">• Architectural Review Cycles</text>
-    <text x="14" y="110" class="oss-desc" fill="#10B981">Ranked #2 Top Contributor in IN</text>
+    <text x="14" y="110" class="oss-desc" fill="#FFD700">Ranked #1 Top Contributor in IN</text>
   </g>
 
   <!-- Arrow 3 -> 4 (Flowing Energy Line) -->

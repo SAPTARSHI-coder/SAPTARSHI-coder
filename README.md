@@ -14,7 +14,7 @@
   <a href="https://saptarshisadhu.co.in/"><img src="https://img.shields.io/badge/Website-saptarshisadhu.co.in-00E5FF?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/saptarshi-sadhu/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/SAPTARSHI-coder"><img src="https://img.shields.io/badge/GitHub-SAPTARSHI--coder-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://committers.top/india_public"><img src="https://user-badge.committers.top/india_public/SAPTARSHI-coder.svg" alt="Rank #2 Contributor in India" /></a>
+  <a href="https://committers.top/india_private"><img src="https://user-badge.committers.top/india_private/SAPTARSHI-coder.svg" alt="Rank #1 Contributor in India" /></a>
   <a href="https://orcid.org/0009-0009-7505-1973"><img src="https://img.shields.io/badge/ORCID-0009--0009--7505--1973-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
   <a href="https://www.hackerrank.com/profile/saptarshi_coder"><img src="https://img.shields.io/badge/HackerRank-4%E2%98%85_C_%C2%B7_3%E2%98%85_C%2B%2B-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
   <a href="https://buymeacoffee.com/saptarshisadhu"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
@@ -69,7 +69,7 @@
 <code><b>&gt; STATUS :</b></code> <img src="https://img.shields.io/badge/STATUS-OPERATIONAL%20%5B200_OK%5D-10B981?style=flat-square" alt="Status" /><br/>
 <code><b>&gt; ACADEMIC :</b></code> <code>3rd Year B.Tech CSE (AI/ML) · Adamas University</code><br/>
 <code><b>&gt; RESEARCH :</b></code> <code>ACM India Summer School '26 · IISc Bengaluru</code><br/>
-<code><b>&gt; RANKING  :</b></code> <img src="https://img.shields.io/badge/committers.top-%232_Contributor_in_India-00E5FF?style=flat-square" alt="Rank" /><br/>
+<code><b>&gt; RANKING  :</b></code> <a href="https://committers.top/india_private"><img src="https://img.shields.io/badge/committers.top-%231_Top_Contributor_in_India-FFD700?style=flat-square&logo=git&logoColor=black" alt="Rank #1 Contributor in India" /></a><br/>
 <code><b>&gt; VELOCITY :</b></code> <code>44,078+ Merged PRs (51,055 Total) · 103,042+ Commits · 99,000+ Contributions</code>
 </p>
 </td>
@@ -218,8 +218,8 @@ The next frontier of machine intelligence is moving models off remote cloud rack
   <img src="https://img.shields.io/badge/NPM-easemotion--css-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
 </a>
 &nbsp;
-<a href="https://committers.top/india_public">
-  <img src="https://img.shields.io/badge/RANKING-%232_Contributor_in_India-10B981?style=for-the-badge&logo=git&logoColor=white" />
+<a href="https://committers.top/india_private">
+  <img src="https://img.shields.io/badge/RANKING-%231_Top_Contributor_in_India-FFD700?style=for-the-badge&logo=git&logoColor=black" />
 </a>
 
 <br/><br/>
@@ -296,7 +296,7 @@ The next frontier of machine intelligence is moving models off remote cloud rack
 | **Contributor Wall** | **855 accounts** | GraphQL cursor pagination of merged PR authors (823+ in UI) |
 | **Unique Git Authors** | **977 unique author emails** | Git commit graph (1,095 deduplicated identities across machines) |
 | **Peak Sprint Velocity** | **1,300+ commits / 24h** | High-throughput maintainer sprint review cycles |
-| **National Standing** | **Rank #2 Public Contributor in India** | Verified on [committers.top/india_public](https://committers.top/india_public) |
+| **National Standing** | **Rank #1 Contributor in India (97,960 Commits)** | Verified on [committers.top/india_private](https://committers.top/india_private) (#1 all-time / private & total contributions; previously #2 on public index prior to EaseMotion-css maintenance mode) |
 
 <br/>
 
@@ -596,7 +596,7 @@ Benchmarking parameter-quantized local LLMs via **Ollama** for zero-cloud depend
 | `CR-01` | 🏫 **Academic** | **ACM India Summer School 2026** | Selected for Edge AI & Robotics at Indian Institute of Science (IISc Bengaluru) |
 | `CR-02` | 🔬 **Research** | **IISc Bengaluru Trajectory** | Selected for ACM India Summer School (Edge AI & Robotics) at IISc Bengaluru |
 | `CR-03` | 🌫️ **Research** | **Air Quality ML Modeling** | Spatio-temporal VOC/O₃/NOx predictive analysis with Sentinel-5P satellite rasters & CPCB sensors |
-| `CR-04` | 🚀 **Open Source** | **#2 Contributor in India** | Ranked #2 Top Public Contributor on [committers.top/india_public](https://committers.top/india_public) |
+| `CR-04` | 🚀 **Open Source** | **#1 Top Contributor in India** | Ranked **#1 in India** (97,960 commits) on [committers.top/india_private](https://committers.top/india_private); previously #2 on public index prior to EaseMotion-css maintenance window |
 | `CR-05` | 📦 **Open Source** | **EaseMotion CSS Maintainer** | 44,078 PRs merged (51,055 total), 103,042+ commits, 1,126 forks, 855+ contributors, GSSoC maintainer lead |
 | `CR-06` | 🌐 **Ambassador** | **Google Gemini Student Ambassador** | Selected Google Gemini Student Ambassador (2026) |
 | `CR-07` | ⚔️ **Competitive** | **Clash of Coders 2.0 Finalist** | Finalist in collegiate algorithmic and systems competition |
